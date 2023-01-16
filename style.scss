@@ -1,0 +1,23 @@
+@use 'mixin.scss';
+
+* {
+    @include mixin.no-margin;
+}
+
+//colors 
+$white: #ffffff;
+$black: #000000;
+$darck-grey: #302c2c;
+$body-grey: #777777;
+$grey-tags: #808080;
+$just-grey: #bebebe;
+$light-grey: #e3e3e3;
+$notes-color: #f0f0f0;
+$bg-light: #f4f4f4;
+$bg-dark: #272727;
+$neutral: #eef1f8;
+$rose: #ffc7f3;
+$red: #ea2e34;
+$blue: #9c9cff;
+$green: #93ff82;
+$yellow: #ffcb45;

@@ -2,12 +2,13 @@
 
 * {
     @include mixin.no-margin;
+    font-family: 'Inter';
 }
 
-//colors 
+
 $white: #ffffff;
 $black: #000000;
-$darck-grey: #302c2c;
+$dark-grey: #302c2c;
 $body-grey: #777777;
 $grey-tags: #808080;
 $just-grey: #bebebe;
@@ -21,3 +22,180 @@ $red: #ea2e34;
 $blue: #9c9cff;
 $green: #93ff82;
 $yellow: #ffcb45;
+
+$image-path: "../images/";
+$img-logo: "LOGOTYPE.png";
+$img-m-glass: "m-glass.svg";
+$img-arrow-down: "Arrow-down.svg";
+$img-arrow-right: "Arrow-right.svg";
+$img-sun: "Sun.svg";
+
+.container {
+    $var1: 1920;
+    $var2: 100%;
+    $var3: 1440;
+    width: $var3 * $var2 / $var1;
+    margin: auto;
+    border: 1px solid violet;
+    background-color: $white;
+}
+
+.abs-block {
+    width: 100%;
+    background-color: $green;
+    @include mixin.flex (center, center, 0);
+    padding: 120.5px 0;
+    margin-bottom: 32px;
+    h4 {
+        @include mixin.font (normal, 500, 48px, 58px, $black);
+        text-align: center;
+    }
+}
+
+.header {
+    @include mixin.flex (center, center, 0);
+    flex-direction: column;
+    margin-bottom: 48px;
+
+    &-top {
+        @include mixin.flex (space-between, center, 0);
+        background-color: $black;
+        $var1: 1440;
+        $var2: 100%;
+        $var3: 1408;
+        width: $var3 * $var2 / $var1;
+        border-radius: 10px;
+        padding: 14.84px 24px 14px 24px;
+        margin-bottom: 16px;
+
+        // &-logo {
+        //     background-image: url("#{$image-path}#{$img-logo}")
+        // }
+
+        &-search-bar {
+            @include mixin.flex (center, center, 37px);
+
+            &-left {
+                input {
+                    // $var1: 1408;
+                    // $var2: 100%;
+                    // $var3: 580;
+                    // width: $var3 * $var2 / $var1;
+                    width: 580px;
+                    padding: 15px 56px 14px 16px;
+                    background-color: $dark-grey;
+                    border: 1px solid $dark-grey;
+                    border-radius: 10px;
+                    background-image: url("#{$image-path}#{$img-m-glass}");
+                    background-repeat: no-repeat;
+                    background-position: 97% center;
+                }
+            }
+
+            &-right {
+                @include mixin.flex (space-between, center, 64px);
+
+                // .arrow {
+                //     // background-image: url("#{$image-path}#{$img-arrow-down");
+                // }
+
+                h3 {
+                    @include mixin.font (normal, 400, 18px, 120%, $white);
+                }
+
+                &-box {
+                    @include mixin.flex (space-between, center, 12px)
+                }
+            }
+        }
+    }
+}
+
+.header-bottom {
+        $var1: 1440;
+        $var2: 100%;
+        $var3: 1408;
+        width: $var3 * $var2 / $var1;
+        &-slider {
+            @include mixin.flex (space-between, center, 0);
+        }
+
+    &-slider-left {
+        @include mixin.flex (flex-start, center, 16px);
+
+        &-btns {
+            @include mixin.flex (center, center, 0);
+            height: 48px;
+            // padding: 12px 20px;
+            border: 2px solid;
+            border-radius: 8px;
+            a {
+                @include mixin.font (normal, 400, 20px, 120%, $grey-tags);
+                text-decoration: none;
+            }
+
+            &-first {
+                width: 188px;
+                background-color: $black;
+                border-color: $black;
+                a {
+                    color: $white;
+                }
+            }
+
+            &-second {
+                width: 205px;
+                a {
+                    text-transform: uppercase;
+                }
+            }
+
+            &-third {
+                width: 150px;
+            }
+
+            &-fourth {
+                width: 118px;
+            }
+
+            &-fifth, &-sixth {
+                width: 109px;
+            }
+
+            &-seventh {
+                width: 107px;
+            }
+
+            &-eight {
+                width: 115px;
+            }
+        }
+    }
+
+        &-slider-right {
+            @include mixin.flex (space-between, center, 25px);
+            &-switch {
+                @include mixin.flex (space-between, center, 0);
+                padding: 4px 40px 4px 4px;
+                width: 84px;
+                height: 48px;
+                background-color: $black;
+                border-radius: 32px;
+                background-image: url(#{$image-path}#{$img-sun});
+                background-repeat: no-repeat;
+                background-position: 90% center;
+
+                &-circle {
+                    width: 40px;
+                    height: 40px;
+                    background-color: $white;
+                    border-radius: 100%;
+                }
+            }
+        }
+}
+
+.btns-type {
+    background-color: $white;
+    border-color: $grey-tags;
+}

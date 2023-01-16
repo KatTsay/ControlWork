@@ -3,4 +3,179 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "Inter";
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  border: 1px solid violet;
+  background-color: #ffffff;
+}
+
+.abs-block {
+  width: 100%;
+  background-color: #93ff82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 120.5px 0;
+  margin-bottom: 32px;
+}
+.abs-block h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  background-color: #000000;
+  width: 97.7777777778%;
+  border-radius: 10px;
+  padding: 14.84px 24px 14px 24px;
+  margin-bottom: 16px;
+}
+.header-top-search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+}
+.header-top-search-bar-left input {
+  width: 580px;
+  padding: 15px 56px 14px 16px;
+  background-color: #302c2c;
+  border: 1px solid #302c2c;
+  border-radius: 10px;
+  background-image: url("../images/m-glass.svg");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+}
+.header-top-search-bar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+.header-top-search-bar-right h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.header-top-search-bar-right-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-bottom {
+  width: 97.7777777778%;
+}
+.header-bottom-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.header-bottom-slider-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.header-bottom-slider-left-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  height: 48px;
+  border: 2px solid;
+  border-radius: 8px;
+}
+.header-bottom-slider-left-btns a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #808080;
+  text-decoration: none;
+}
+.header-bottom-slider-left-btns-first {
+  width: 188px;
+  background-color: #000000;
+  border-color: #000000;
+}
+.header-bottom-slider-left-btns-first a {
+  color: #ffffff;
+}
+.header-bottom-slider-left-btns-second {
+  width: 205px;
+}
+.header-bottom-slider-left-btns-second a {
+  text-transform: uppercase;
+}
+.header-bottom-slider-left-btns-third {
+  width: 150px;
+}
+.header-bottom-slider-left-btns-fourth {
+  width: 118px;
+}
+.header-bottom-slider-left-btns-fifth, .header-bottom-slider-left-btns-sixth {
+  width: 109px;
+}
+.header-bottom-slider-left-btns-seventh {
+  width: 107px;
+}
+.header-bottom-slider-left-btns-eight {
+  width: 115px;
+}
+.header-bottom-slider-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.header-bottom-slider-right-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  padding: 4px 40px 4px 4px;
+  width: 84px;
+  height: 48px;
+  background-color: #000000;
+  border-radius: 32px;
+  background-image: url(../images/Sun.svg);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+.header-bottom-slider-right-switch-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+
+.btns-type {
+  background-color: #ffffff;
+  border-color: #808080;
 }

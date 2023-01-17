@@ -199,3 +199,162 @@ $img-sun: "Sun.svg";
     background-color: $white;
     border-color: $grey-tags;
 }
+
+.main {
+        $var1: 1440;
+        $var2: 100%;
+        $var3: 1408;
+        width: $var3 * $var2 / $var1;
+        margin: auto;
+        a {
+            text-decoration: none;
+        }
+        li {
+            list-style-type: none;
+        }
+        &-title {
+            @include mixin.flex (space-between, flex-start, 0);
+        }
+}
+
+.images {
+    background-color: $light-grey;
+    border-radius: 10px;
+}
+
+.title-left-image {
+    width: 296px;
+    height: 182px;
+}
+
+.main-title-left {
+    $var1: 1408;
+    $var2: 100%;
+    $var3: 320;
+    width: $var3 * $var2 / $var1;
+
+    ul {
+        @include mixin.flex (center, center, 8px);
+        flex-direction: column;
+    }
+
+    
+    a {
+        @include mixin.font (normal, 800, 18px, 110%, $black);
+        font-feature-settings: "liga" off;
+        h5 {
+            width: 292px;
+        }
+    }
+    
+    &-top {
+        margin-bottom: 16px;
+    }
+
+}
+
+.title-box {
+    @include mixin.flex (center, center, 16px);
+
+    &-image {
+        width: 72px;
+        height: 72px;
+    }
+
+    &-right {
+        @include mixin.flex (center, flex-start, 4px);
+        flex-direction: column;
+        .name {
+            @include mixin.flex (center, center, 4px);
+            width: 98px; 
+            background-color: $green;
+            border: 1px solid $black;
+            border-radius: 6px;
+            padding: 4px 8px;
+
+            h6 {
+                @include mixin.font (normal, 500, 14px, 120%, $black);
+                letter-spacing: -0.019em;
+            }
+        }
+        p {
+            @include mixin.font (normal, 400, 18px, 120%, $black);
+            width: 204px;
+        }
+    }
+}
+
+.main-title-center {
+    $var1: 1408;
+    $var2: 100%;
+    $var3: 736;
+    width: $var3 * $var2 / $var1;
+    @include mixin.flex (center, center, 16px);
+    flex-direction: column;
+    padding: 16px 16px 0 16px;
+
+    &-image {
+        width: 704px;
+        height: 364px;
+        margin: auto;
+        background-color: $blue;
+        border-radius: 10px;
+    }
+
+    h3 {
+        @include mixin.font (normal, 800, 36px, 110%, $black);
+        font-feature-settings: "liga" off;
+        overflow-y: hidden;
+    }
+}
+
+.main-title-right {
+    position: relative;
+    $var1: 1408;
+    $var2: 100%;
+    $var3: 320;
+    width: $var3 * $var2 / $var1;
+    @include mixin.flex (center, center, 0);
+    a {
+        text-decoration: none;
+    }
+
+    &-info {
+        h5 {
+            @include mixin.font (normal, 700, 16px, 120%, $black);
+            margin-bottom: 12px;
+        }
+        &-box {
+            width: 288px;
+            padding: 12px 0;
+            border-top: 1px solid $light-grey;
+            
+        a {
+            p {
+                @include mixin.font (normal, 500, 18px, 120%, $body-grey);
+                text-transform: lowercase;
+                font-feature-settings: "liga" off;
+                margin-bottom: 21px;
+                span {
+                    color: $black;
+                }
+            }
+        }
+    }
+    }
+    &-scroll {
+        &-line {
+            width: 4px;
+            height: 130px;
+            background-color: $blue;
+            border-radius: 40px;
+            position: absolute;
+            top: 5%;
+            right: 0;
+        }
+    }
+}
+
+.last-box {
+    border-bottom: 1px solid $light-grey;
+}

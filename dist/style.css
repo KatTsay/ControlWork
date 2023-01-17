@@ -179,3 +179,177 @@
   background-color: #ffffff;
   border-color: #808080;
 }
+
+.main {
+  width: 97.7777777778%;
+  margin: auto;
+}
+.main a {
+  text-decoration: none;
+}
+.main li {
+  list-style-type: none;
+}
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.images {
+  background-color: #e3e3e3;
+  border-radius: 10px;
+}
+
+.title-left-image {
+  width: 296px;
+  height: 182px;
+}
+
+.main-title-left {
+  width: 22.7272727273%;
+}
+.main-title-left ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+.main-title-left a {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 110%;
+  color: #000000;
+  font-feature-settings: "liga" off;
+}
+.main-title-left a h5 {
+  width: 292px;
+}
+.main-title-left-top {
+  margin-bottom: 16px;
+}
+
+.title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.title-box-image {
+  width: 72px;
+  height: 72px;
+}
+.title-box-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  flex-direction: column;
+}
+.title-box-right .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 98px;
+  background-color: #93ff82;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+.title-box-right .name h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000000;
+  letter-spacing: -0.019em;
+}
+.title-box-right p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000;
+  width: 204px;
+}
+
+.main-title-center {
+  width: 52.2727272727%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+  padding: 16px 16px 0 16px;
+}
+.main-title-center-image {
+  width: 704px;
+  height: 364px;
+  margin: auto;
+  background-color: #9c9cff;
+  border-radius: 10px;
+}
+.main-title-center h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  font-feature-settings: "liga" off;
+  overflow-y: hidden;
+}
+
+.main-title-right {
+  position: relative;
+  width: 22.7272727273%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.main-title-right a {
+  text-decoration: none;
+}
+.main-title-right-info h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.main-title-right-info-box {
+  width: 288px;
+  padding: 12px 0;
+  border-top: 1px solid #e3e3e3;
+}
+.main-title-right-info-box a p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #777777;
+  text-transform: lowercase;
+  font-feature-settings: "liga" off;
+  margin-bottom: 21px;
+}
+.main-title-right-info-box a p span {
+  color: #000000;
+}
+.main-title-right-scroll-line {
+  width: 4px;
+  height: 130px;
+  background-color: #9c9cff;
+  border-radius: 40px;
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+
+.last-box {
+  border-bottom: 1px solid #e3e3e3;
+}

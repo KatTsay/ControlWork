@@ -29,12 +29,14 @@ $img-m-glass: "m-glass.svg";
 $img-arrow-down: "Arrow-down.svg";
 $img-arrow-right: "Arrow-right.svg";
 $img-sun: "Sun.svg";
+$img-clock: "Clock-icon.svg";
 
 .container {
-    $var1: 1920;
-    $var2: 100%;
-    $var3: 1440;
-    width: $var3 * $var2 / $var1;
+    // $var1: 1920;
+    // $var2: 100%;
+    // $var3: 1440;
+    // width: $var3 * $var2 / $var1;
+    width: 1440px;
     margin: auto;
     border: 1px solid violet;
     background-color: $white;
@@ -60,10 +62,11 @@ $img-sun: "Sun.svg";
     &-top {
         @include mixin.flex (space-between, center, 0);
         background-color: $black;
-        $var1: 1440;
-        $var2: 100%;
-        $var3: 1408;
-        width: $var3 * $var2 / $var1;
+        // $var1: 1440;
+        // $var2: 100%;
+        // $var3: 1408;
+        // width: $var3 * $var2 / $var1;
+        width: 1408px;
         border-radius: 10px;
         padding: 14.84px 24px 14px 24px;
         margin-bottom: 16px;
@@ -112,10 +115,11 @@ $img-sun: "Sun.svg";
 }
 
 .header-bottom {
-        $var1: 1440;
-        $var2: 100%;
-        $var3: 1408;
-        width: $var3 * $var2 / $var1;
+        // $var1: 1440;
+        // $var2: 100%;
+        // $var3: 1408;
+        // width: $var3 * $var2 / $var1;
+        width: 1408px;
         &-slider {
             @include mixin.flex (space-between, center, 0);
         }
@@ -201,10 +205,11 @@ $img-sun: "Sun.svg";
 }
 
 .main {
-        $var1: 1440;
-        $var2: 100%;
-        $var3: 1408;
-        width: $var3 * $var2 / $var1;
+        // $var1: 1440;
+        // $var2: 100%;
+        // $var3: 1408;
+        // width: $var3 * $var2 / $var1;
+        width: 1408px;
         margin: auto;
         a {
             text-decoration: none;
@@ -214,6 +219,7 @@ $img-sun: "Sun.svg";
         }
         &-title {
             @include mixin.flex (space-between, flex-start, 0);
+            margin-bottom: 32px;
         }
 }
 
@@ -228,10 +234,11 @@ $img-sun: "Sun.svg";
 }
 
 .main-title-left {
-    $var1: 1408;
-    $var2: 100%;
-    $var3: 320;
-    width: $var3 * $var2 / $var1;
+    // $var1: 1408;
+    // $var2: 100%;
+    // $var3: 320;
+    // width: $var3 * $var2 / $var1;
+    width: 320px;
 
     ul {
         @include mixin.flex (center, center, 8px);
@@ -285,10 +292,11 @@ $img-sun: "Sun.svg";
 }
 
 .main-title-center {
-    $var1: 1408;
-    $var2: 100%;
-    $var3: 736;
-    width: $var3 * $var2 / $var1;
+    // $var1: 1408;
+    // $var2: 100%;
+    // $var3: 736;
+    // width: $var3 * $var2 / $var1;
+    width: 736px;
     @include mixin.flex (center, center, 16px);
     flex-direction: column;
     padding: 16px 16px 0 16px;
@@ -310,10 +318,11 @@ $img-sun: "Sun.svg";
 
 .main-title-right {
     position: relative;
-    $var1: 1408;
-    $var2: 100%;
-    $var3: 320;
-    width: $var3 * $var2 / $var1;
+    // $var1: 1408;
+    // $var2: 100%;
+    // $var3: 320;
+    // width: $var3 * $var2 / $var1;
+    width: 320px;
     @include mixin.flex (center, center, 0);
     a {
         text-decoration: none;
@@ -357,4 +366,335 @@ $img-sun: "Sun.svg";
 
 .last-box {
     border-bottom: 1px solid $light-grey;
+}
+
+.main-card {
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    width: 1408px;
+    margin: auto;
+    margin-bottom: 24px;
+    @include mixin.flex (space-between, center, 0);
+
+    &-block {
+        // $var1: 1408;
+        // $var2: 100%;
+        // $var3: 460;
+        // width: $var3 * $var2 / $var1;
+        width: 460px;
+
+        &-top {
+            width: 100%;
+            height: 360px;
+            background-color: $red;
+            border-radius: 10px;
+        }
+
+        &-bottom {
+            @include mixin.flex (space-around, flex-start, 0);
+            flex-direction: column;
+            width: 100%;
+            height: 360px;
+            background-color: $black;
+            border-radius: 10px;
+            padding-left: 16px;
+
+            &-title {
+                h2 {
+                    @include mixin.font (normal, 800, 36px, 110%, $white);
+                    font-feature-settings: "liga" off;
+                    overflow-y: hidden;
+                    width: 376px;
+                }
+            }
+
+            &-text {
+                h6 {
+                    @include mixin.font (normal, 500, 18px, 120%, $white);
+                    display: flex;
+                    align-items: flex-end;
+                    letter-spacing: -0.019em;
+                    width: 376px;
+                }
+            }
+
+            &-data {
+                @include mixin.flex (space-between, center, 0);
+                width: 177px;
+                
+                &-day {
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $light-grey);
+                        font-feature-settings: "liga" off;
+                    }
+                }
+
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.small-card {
+    @include mixin.flex (space-between, flex-start, 16px);
+        // $var1: 1440;
+        // $var2: 100%;
+        // $var3: 1408;
+        // width: $var3 * $var2 / $var1;
+        width: 1408px;
+        margin: auto;
+        margin-bottom: 48px;
+
+        &-left {
+            // $var1: 1408;
+            // $var2: 100%;
+            // $var3: 932;
+            // width: $var3 * $var2 / $var1;
+            width: 932px;
+            @include mixin.flex (center, center, 16px);
+            flex-direction: column;
+
+            &-info {
+                @include mixin.flex (space-between, center, 0);
+                
+
+                &-text {
+                    height: 360px;
+                    width: 460px;
+                    padding: 16px 0 16px 16px;
+                    @include mixin.flex (space-between, flex-start, 0);
+                    flex-direction: column;
+
+                    &-title {
+                        h2 {
+                            @include mixin.font (normal, 800, 36px, 110%, $black);
+                            font-feature-settings: "liga" off;
+                            width: 392px;
+                            overflow-y: hidden;
+                        }
+                    }
+
+                    &-description {
+                        h6 {
+                            width: 392px;
+                            @include mixin.font (normal, 500, 18px, 120%, $black);
+                            display: flex;
+                            align-items: flex-end;
+                            letter-spacing: -0.019em;
+                        }
+                    }
+                }
+
+                &-data {
+                    @include mixin.flex (space-between, center, 0);
+                    width: 177px;
+
+                    &-day {
+                        p {
+                            @include mixin.font (normal, 400, 12px, 140%, $dark-grey);
+                            font-feature-settings: "liga" off;
+                        }
+                    }
+    
+                    &-time {
+                        width: 79px;
+                        @include mixin.flex (flex-end, center, 0);
+                        background-image: url(#{$image-path}#{$img-clock});
+                        background-repeat: no-repeat;
+                        background-position: 13% center;
+                        p {
+                            @include mixin.font (normal, 400, 12px, 140%, $black);
+                            font-feature-settings: "liga" off;
+                        }
+                    }
+                }
+
+                &-image {
+                    width: 472px;
+                    height: 360px;
+                    background-color: $rose;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        &-right {
+            // $var1: 1408;
+            // $var2: 100%;
+            // $var3: 460;
+            // width: $var3 * $var2 / $var1;
+            width: 460px;
+            &-abs {
+                width: 100%;
+                height: 920px;
+                background-color: $green;
+                border-radius: 10px;
+                @include mixin.flex (center, center, 0);
+
+                h4 {
+                    @include mixin.font (normal, 500, 49.4182px, 60px, $black);
+                    text-align: center;
+                }
+            }
+        }
+}
+
+.revers-card {
+    flex-direction: row-reverse;
+}
+
+.abs-block {
+    width: 1408px;
+    height: 363px;
+    margin-bottom: 24px;
+
+    &-show {
+        background-color: $green;
+        @include mixin.flex (center, center, 0);
+
+        h4 {
+            @include mixin.font (normal, 500, 48px, 58px, $black);
+            text-align: center;
+        }
+    }
+}
+
+.inform-part {
+    width: 1408px;
+    @include mixin.flex (center, center, 24px);
+    flex-direction: column;
+    margin-bottom: 32px;
+
+    &-item {
+        height: 560px;
+        @include mixin.flex (space-between, flex-start,0);
+
+        &-text {
+            background-color: $black;
+            border-radius: 10px;
+            width: 460px;
+            height: 560px;
+            @include mixin.flex (center, flex-start, 0);
+            padding: 24px 16px 24px 24px;
+
+            &-main {
+                @include mixin.flex (center, flex-start, 48px);
+                flex-direction: column;
+                &-title {
+                    h2 {
+                        @include mixin.font (normal, 800, 48px, 110%, $white);
+                        font-feature-settings: "liga" off;
+                        width: 348px;
+                        overflow-y: hidden
+                    }
+                }
+
+                &-description {
+                    h6 {
+                        @include mixin.font (normal, 500, 18px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
+            }
+
+            &-data {
+                width: 154px;
+                height: 15px;
+                transform: rotate(90deg);
+                overflow-y: hidden;
+                @include mixin.flex (space-between, center, 0);
+
+                    &-day {
+                        width: 75px;
+                        height: 15px;
+                        p {
+                            @include mixin.font (normal, 400, 12px, 140%, $white);
+                            font-feature-settings: "liga" off;
+                        }
+                    }
+    
+                    &-time {
+                        width: 69.28px;
+                        height: 14.91px;
+                        @include mixin.flex (flex-end, center, 0);
+                        background-image: url(#{$image-path}#{$img-clock});
+                        background-repeat: no-repeat;
+                        background-position: 13% center;
+                        p {
+                            @include mixin.font (normal, 400, 12px, 140%, $white);
+                            font-feature-settings: "liga" off;
+                        }
+                    }
+            }
+
+        }
+
+        &-image {
+            width: 948px;
+            height: 560px;
+            background-color: $yellow;
+            border-radius: 10px;
+        }
+    }
+}
+
+.test {
+    width: 1408px;
+    @include mixin.flex (center, center, 24px);
+    flex-direction: column;
+    margin-bottom: 32px;
+
+    &-title {
+        width: 100%;
+        @include mixin.flex (space-between, center, 0);
+
+        &-abs {
+            width: 200px;
+            height: 140px;
+            background-color: $green;
+            border-radius: 10px;
+        }
+
+        &-btn {
+            width: 60px;
+            height: 140px;
+            border-radius: 100px;
+            background-color: $red;
+            border: 0;
+            p {
+            @include mixin.font (normal, 700, 24px, 100%, $white);
+            text-align: center;
+            letter-spacing: -0.019em;
+            transform: rotate(-90deg);
+            text-transform: uppercase;
+            overflow-y: hidden;
+            }
+        }
+
+        &-text {
+            width: 1146px;
+            background-color: $light-grey;
+            border-radius: 10px;
+            @include mixin.flex (center, center, 0);
+            padding: 24px 66px 24px 36px;
+            
+            p {
+                @include mixin.font (normal, 600, 42px, 110%, $black);
+                font-feature-settings: "liga" off;
+                overflow-y: hidden;
+            }
+        }
+    }
 }

@@ -30,15 +30,21 @@ $img-arrow-down: "Arrow-down.svg";
 $img-arrow-right: "Arrow-right.svg";
 $img-sun: "Sun.svg";
 $img-clock: "Clock-icon.svg";
+$img-insta: "insta-icon.svg";
+$img-telega: "telega-icon.svg";
+$img-facebook: "facebook-icon.svg";
+$img-vk: "vk-icon.svg";
+$img-youtube: "youtube-icon.svg";
+$img-footer-banner: "LOGOTYPE-footer.svg";
 
 .container {
     // $var1: 1920;
     // $var2: 100%;
     // $var3: 1440;
     // width: $var3 * $var2 / $var1;
-    width: 1440px;
+    // width: 1440px;
+    width: 75.7%;
     margin: auto;
-    border: 1px solid violet;
     background-color: $white;
 }
 
@@ -48,6 +54,7 @@ $img-clock: "Clock-icon.svg";
     @include mixin.flex (center, center, 0);
     padding: 120.5px 0;
     margin-bottom: 32px;
+    margin: auto;
     h4 {
         @include mixin.font (normal, 500, 48px, 58px, $black);
         text-align: center;
@@ -66,7 +73,8 @@ $img-clock: "Clock-icon.svg";
         // $var2: 100%;
         // $var3: 1408;
         // width: $var3 * $var2 / $var1;
-        width: 1408px;
+        // width: 1408px;
+        width: 97.7%;
         border-radius: 10px;
         padding: 14.84px 24px 14px 24px;
         margin-bottom: 16px;
@@ -80,10 +88,6 @@ $img-clock: "Clock-icon.svg";
 
             &-left {
                 input {
-                    // $var1: 1408;
-                    // $var2: 100%;
-                    // $var3: 580;
-                    // width: $var3 * $var2 / $var1;
                     width: 580px;
                     padding: 15px 56px 14px 16px;
                     background-color: $dark-grey;
@@ -119,7 +123,8 @@ $img-clock: "Clock-icon.svg";
         // $var2: 100%;
         // $var3: 1408;
         // width: $var3 * $var2 / $var1;
-        width: 1408px;
+        // width: 1408px;
+        width: 97.7%;
         &-slider {
             @include mixin.flex (space-between, center, 0);
         }
@@ -209,7 +214,8 @@ $img-clock: "Clock-icon.svg";
         // $var2: 100%;
         // $var3: 1408;
         // width: $var3 * $var2 / $var1;
-        width: 1408px;
+        // width: 1408px;
+        width: 100%;
         margin: auto;
         a {
             text-decoration: none;
@@ -234,10 +240,6 @@ $img-clock: "Clock-icon.svg";
 }
 
 .main-title-left {
-    // $var1: 1408;
-    // $var2: 100%;
-    // $var3: 320;
-    // width: $var3 * $var2 / $var1;
     width: 320px;
 
     ul {
@@ -292,14 +294,14 @@ $img-clock: "Clock-icon.svg";
 }
 
 .main-title-center {
-    // $var1: 1408;
-    // $var2: 100%;
-    // $var3: 736;
-    // width: $var3 * $var2 / $var1;
     width: 736px;
+    background-color: $white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
     @include mixin.flex (center, center, 16px);
     flex-direction: column;
-    padding: 16px 16px 0 16px;
+    padding: 16px;
+
 
     &-image {
         width: 704px;
@@ -318,10 +320,6 @@ $img-clock: "Clock-icon.svg";
 
 .main-title-right {
     position: relative;
-    // $var1: 1408;
-    // $var2: 100%;
-    // $var3: 320;
-    // width: $var3 * $var2 / $var1;
     width: 320px;
     @include mixin.flex (center, center, 0);
     a {
@@ -373,16 +371,13 @@ $img-clock: "Clock-icon.svg";
     // $var2: 100%;
     // $var3: 1408;
     // width: $var3 * $var2 / $var1;
-    width: 1408px;
+    // width: 1408px;
+    width: 97.7%;
     margin: auto;
     margin-bottom: 24px;
     @include mixin.flex (space-between, center, 0);
 
     &-block {
-        // $var1: 1408;
-        // $var2: 100%;
-        // $var3: 460;
-        // width: $var3 * $var2 / $var1;
         width: 460px;
 
         &-top {
@@ -453,15 +448,12 @@ $img-clock: "Clock-icon.svg";
         // $var2: 100%;
         // $var3: 1408;
         // width: $var3 * $var2 / $var1;
-        width: 1408px;
+        // width: 1408px;
+        width: 97.7%;
         margin: auto;
         margin-bottom: 48px;
 
         &-left {
-            // $var1: 1408;
-            // $var2: 100%;
-            // $var3: 932;
-            // width: $var3 * $var2 / $var1;
             width: 932px;
             @include mixin.flex (center, center, 16px);
             flex-direction: column;
@@ -531,10 +523,6 @@ $img-clock: "Clock-icon.svg";
         }
 
         &-right {
-            // $var1: 1408;
-            // $var2: 100%;
-            // $var3: 460;
-            // width: $var3 * $var2 / $var1;
             width: 460px;
             &-abs {
                 width: 100%;
@@ -556,7 +544,12 @@ $img-clock: "Clock-icon.svg";
 }
 
 .abs-block {
-    width: 1408px;
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    // width: 1408px;
+    width: 97.7%;
     height: 363px;
     margin-bottom: 24px;
 
@@ -572,7 +565,12 @@ $img-clock: "Clock-icon.svg";
 }
 
 .inform-part {
-    width: 1408px;
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    // width: 1408px;
+    width: 100%;
     @include mixin.flex (center, center, 24px);
     flex-direction: column;
     margin-bottom: 32px;
@@ -588,6 +586,7 @@ $img-clock: "Clock-icon.svg";
             height: 560px;
             @include mixin.flex (center, flex-start, 0);
             padding: 24px 16px 24px 24px;
+            position: relative;
 
             &-main {
                 @include mixin.flex (center, flex-start, 48px);
@@ -610,33 +609,34 @@ $img-clock: "Clock-icon.svg";
             }
 
             &-data {
-                width: 154px;
+                @include mixin.flex (space-between, center, 0);
+                width: 177px;
                 height: 15px;
+                position: absolute;
+                right: -13%;
+                top: 20%;
                 transform: rotate(90deg);
                 overflow-y: hidden;
-                @include mixin.flex (space-between, center, 0);
-
-                    &-day {
-                        width: 75px;
-                        height: 15px;
-                        p {
-                            @include mixin.font (normal, 400, 12px, 140%, $white);
-                            font-feature-settings: "liga" off;
-                        }
-                    }
     
-                    &-time {
-                        width: 69.28px;
-                        height: 14.91px;
-                        @include mixin.flex (flex-end, center, 0);
-                        background-image: url(#{$image-path}#{$img-clock});
-                        background-repeat: no-repeat;
-                        background-position: 13% center;
-                        p {
-                            @include mixin.font (normal, 400, 12px, 140%, $white);
-                            font-feature-settings: "liga" off;
-                        }
+                &-day {
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
                     }
+                }
+    
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-clock});
+                    background-repeat: no-repeat;
+                    background-size: 8.77px;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
             }
 
         }
@@ -647,13 +647,20 @@ $img-clock: "Clock-icon.svg";
             background-color: $yellow;
             border-radius: 10px;
         }
+
     }
 }
 
 .test {
-    width: 1408px;
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    // width: 1408px;
+    width: 97.7%;    
     @include mixin.flex (center, center, 24px);
-    flex-direction: column;
+    flex-direction: column; 
+    margin: auto;   
     margin-bottom: 32px;
 
     &-title {
@@ -700,11 +707,17 @@ $img-clock: "Clock-icon.svg";
 }
 
 .results {
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    width: 97.7%;
     @include mixin.flex (center, center, 0);
     background-color: $black;
-    width: 1408px;
+    // width: 1408px;
     border-radius: 10px;
     padding: 52px 0;
+    margin: auto;
     margin-bottom: 26px;
     a {
         text-decoration: none;
@@ -720,9 +733,15 @@ $img-clock: "Clock-icon.svg";
 }
 
 .mailing {
-    width: 1408px;
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    width: 97.7%;
+    // width: 1408px;
     @include mixin.flex (center, center, 0);
     flex-direction: column;
+    margin: auto;
     margin-bottom: 16px;
 
     &-top {
@@ -770,29 +789,37 @@ $img-clock: "Clock-icon.svg";
     }
 }
 
-
-// .mailing-bottom {
-//     input::placeholder {
-//             @include mixin.flex (normal, 600, 36px, 100%, $grey);
-//             text-align: center;
-//             letter-spacing: -0.019em;      
-//     }
-// }
+.mailing-bottom {
+    input::placeholder {
+        @include mixin.font (normal, 600, 36px, 100%, $just-grey);
+        // text-align: center;
+        letter-spacing: -0.019em;
+    }
+}
 
 .ideas {
-    width: 1408px;
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    // width: 1408px;
+    width: 97.7%;
     @include mixin.flex (center, center, 0);
     flex-direction: column;
+    margin: auto;
+    margin-bottom: 60px;
 
     &-top {
         width: 100%;
         @include mixin.flex (space-between, center,0);
+        margin-bottom: 16px;
 
         &-left {
             width: 460px;
+            height: 360px;
             background-color: $black;
             border-radius: 10px;
-            padding: 24px;
+            padding: 24px 0 0 24px;
 
             img {
                 margin-bottom: 137px;
@@ -802,6 +829,7 @@ $img-clock: "Clock-icon.svg";
                 @include mixin.font (normal, 800, 36px, 110%, $white);
                 font-feature-settings: "liga" off;
                 overflow-y: hidden;
+                width: 412px;
             }
         }
 
@@ -816,12 +844,13 @@ $img-clock: "Clock-icon.svg";
             flex-direction: column;
 
             &-firstpart {
-                @include mixin.flex (space-between, flex-start, 0);
+                @include mixin.flex (space-between, flex-start, 159px);
 
                 h5 {
                     @include mixin.font (normal, 800, 36px, 110%, $white);
                     font-feature-settings: "liga" off;
                     overflow-y: hidden;
+                    width: 421px;
                 }
 
                 &-btn {
@@ -837,14 +866,86 @@ $img-clock: "Clock-icon.svg";
             }
 
             &-secondpart {
-                @include mixin.flex (space-between, flex-end, 0);
+                @include mixin.flex (space-between, flex-end, 159px);
 
                 h5 {
                     @include mixin.font (normal, 800, 36px, 110%, $white);
                     font-feature-settings: "liga" off;
                     overflow-y: hidden;
+                    width: 421px;
                 }
             }
         }
     }
+
+    &-bottom {
+        width: 100%;
+        @include mixin.flex (space-between, center,0);
+        
+        &-left {
+            width: 932px;
+            padding: 16px;
+            background-color: $black;
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            height: 360px;
+            overflow-y: hidden;
+            h4 {
+                @include mixin.font (normal, 800, 36px, 110%, $white);
+                font-feature-settings: "liga" off;
+                overflow-y: hidden;
+                width: 421px;
+            }
+
+            &-btn {
+                width: 320px;
+                height: 48px;
+                background-color: $white;
+                border-radius: 10px;
+                @include mixin.font (normal, 800, 18px, 110%, $black);
+                text-align: center;
+                font-feature-settings: "liga" off;
+                transform: translate(180%, 260%);
+            }
+        }
+
+        &-center {
+            width: 148px;
+            height: 360px;
+            background-color: $black;
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            @include mixin.flex (center, center, 0);
+            position: relative;
+
+            p {
+                @include mixin.font (normal, 600, 28px, 100%, $white);
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.019em;
+                transform: rotate(-90deg);
+                overflow-y: hidden;
+                // width: 287.43px;
+                // height: 82.43px;
+                position: absolute;
+            }
+        }
+
+        &-right {
+            background-color: $white;
+            border-radius: 10px;
+            border: 0;
+        }
+    }
+}
+
+.footer {
+    // $var1: 1440;
+    // $var2: 100%;
+    // $var3: 1408;
+    // width: $var3 * $var2 / $var1;
+    // width: 1408px;
+    width: 97.7%;
+    margin: auto;
 }

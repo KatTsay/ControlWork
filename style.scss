@@ -48,13 +48,17 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
     background-color: $white;
 }
 
-.abs-block {
+.wrapper {
+    width: 97.7%;
+}
+
+.abs-block-first {
     width: 100%;
     background-color: $green;
     @include mixin.flex (center, center, 0);
-    padding: 120.5px 0;
-    margin-bottom: 32px;
+    padding: 120.5px 0;    
     margin: auto;
+    margin-bottom: 32px;
     h4 {
         @include mixin.font (normal, 500, 48px, 58px, $black);
         text-align: center;
@@ -69,19 +73,9 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
     &-top {
         @include mixin.flex (space-between, center, 0);
         background-color: $black;
-        // $var1: 1440;
-        // $var2: 100%;
-        // $var3: 1408;
-        // width: $var3 * $var2 / $var1;
-        // width: 1408px;
-        width: 97.7%;
         border-radius: 10px;
         padding: 14.84px 24px 14px 24px;
         margin-bottom: 16px;
-
-        // &-logo {
-        //     background-image: url("#{$image-path}#{$img-logo}")
-        // }
 
         &-search-bar {
             @include mixin.flex (center, center, 37px);
@@ -119,12 +113,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .header-bottom {
-        // $var1: 1440;
-        // $var2: 100%;
-        // $var3: 1408;
-        // width: $var3 * $var2 / $var1;
-        // width: 1408px;
-        width: 97.7%;
         &-slider {
             @include mixin.flex (space-between, center, 0);
         }
@@ -210,11 +198,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .main {
-        // $var1: 1440;
-        // $var2: 100%;
-        // $var3: 1408;
-        // width: $var3 * $var2 / $var1;
-        // width: 1408px;
         width: 100%;
         margin: auto;
         a {
@@ -367,12 +350,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .main-card {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    // width: 1408px;
-    width: 97.7%;
     margin: auto;
     margin-bottom: 24px;
     @include mixin.flex (space-between, center, 0);
@@ -444,12 +421,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 
 .small-card {
     @include mixin.flex (space-between, flex-start, 16px);
-        // $var1: 1440;
-        // $var2: 100%;
-        // $var3: 1408;
-        // width: $var3 * $var2 / $var1;
-        // width: 1408px;
-        width: 97.7%;
         margin: auto;
         margin-bottom: 48px;
 
@@ -544,12 +515,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .abs-block {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    // width: 1408px;
-    width: 97.7%;
     height: 363px;
     margin-bottom: 24px;
 
@@ -565,11 +530,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .inform-part {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    // width: 1408px;
     width: 100%;
     @include mixin.flex (center, center, 24px);
     flex-direction: column;
@@ -651,13 +611,7 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
     }
 }
 
-.test {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    // width: 1408px;
-    width: 97.7%;    
+.test { 
     @include mixin.flex (center, center, 24px);
     flex-direction: column; 
     margin: auto;   
@@ -707,11 +661,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .results {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    width: 97.7%;
     @include mixin.flex (center, center, 0);
     background-color: $black;
     // width: 1408px;
@@ -733,12 +682,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .mailing {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    width: 97.7%;
-    // width: 1408px;
     @include mixin.flex (center, center, 0);
     flex-direction: column;
     margin: auto;
@@ -798,12 +741,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .ideas {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    // width: 1408px;
-    width: 97.7%;
     @include mixin.flex (center, center, 0);
     flex-direction: column;
     margin: auto;
@@ -941,11 +878,91 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .footer {
-    // $var1: 1440;
-    // $var2: 100%;
-    // $var3: 1408;
-    // width: $var3 * $var2 / $var1;
-    // width: 1408px;
-    width: 97.7%;
     margin: auto;
+}
+
+.header-top-search-bar-right-tablet {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 96%;
+    }
+
+    .abs-block {
+        width: 100%;
+        padding: 45px 0;
+    }
+
+
+    .header-bottom-slider-left-btns-fourth {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-fifth {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-sixth {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-seventh {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-eigth {
+        display: none;
+    }
+
+    .header-bottom-slider-right {
+        display: none;
+    }
+
+    .header-top-search-bar-right {
+        display: none;
+    }
+
+    .header-top-search-bar-right-tablet {
+        @include mixin.flex (space-between, center, 0);
+        width: 196px;
+
+        &-theme {
+            @include mixin.flex (space-between, center, 0);
+            padding: 4px 40px 4px 4px;
+            width: 84px;
+            height: 48px;
+            background-color: $black;
+            border-radius: 32px;
+            background-image: url(#{$image-path}#{$img-sun});
+            background-repeat: no-repeat;
+            background-position: 90% center;
+            
+            &-circle {
+                width: 40px;
+                height: 40px;
+                background-color: $white;
+                border-radius: 100%;
+            }
+        }
+
+        h3 {
+            @include mixin.font (normal, 400, 18px, 120%, $white);
+        }
+    }
+
+    .header-top-search-bar-left {
+        input {
+            width: 286px;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
 }

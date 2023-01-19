@@ -22,6 +22,8 @@ $red: #ea2e34;
 $blue: #9c9cff;
 $green: #93ff82;
 $yellow: #ffcb45;
+$dark-text: #292929;
+$orange-red: #ff4308;
 
 $image-path: "../images/";
 $img-logo: "LOGOTYPE.png";
@@ -36,13 +38,9 @@ $img-facebook: "facebook-icon.svg";
 $img-vk: "vk-icon.svg";
 $img-youtube: "youtube-icon.svg";
 $img-footer-banner: "LOGOTYPE-footer.svg";
+$img-dark-clock: "dark-clock.svg";
 
 .container {
-    // $var1: 1920;
-    // $var2: 100%;
-    // $var3: 1440;
-    // width: $var3 * $var2 / $var1;
-    // width: 1440px;
     width: 75.7%;
     margin: auto;
     background-color: $white;
@@ -515,10 +513,11 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 }
 
 .abs-block {
-    height: 363px;
+    margin: auto;
     margin-bottom: 24px;
 
     &-show {
+        height: 363px;
         background-color: $green;
         @include mixin.flex (center, center, 0);
 
@@ -885,6 +884,42 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
     display: none;
 }
 
+.main-title-right-tablet {
+    display: none;
+}
+
+.main-card-block-tablet {
+    display: none;
+}
+
+.small-card-tablet {
+    display: none;
+}
+
+.inform-part-item-tablet {
+    display: none;
+}
+
+.ideas-tablet-first {
+    display: none;
+}
+
+.ideas-tablet-second {
+    display: none;
+}
+
+.ideas-tablet-third {
+    display: none;
+}
+
+.ideas-tablet-fourth {
+    display: none;
+}
+
+.tablet-footer {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 100%;
@@ -899,11 +934,6 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
         padding: 45px 0;
     }
 
-
-    .header-bottom-slider-left-btns-fourth {
-        display: none;
-    }
-
     .header-bottom-slider-left-btns-fifth {
         display: none;
     }
@@ -916,7 +946,7 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
         display: none;
     }
 
-    .header-bottom-slider-left-btns-eigth {
+    .header-bottom-slider-left-btns-eight {
         display: none;
     }
 
@@ -926,6 +956,23 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 
     .header-top-search-bar-right {
         display: none;
+    }
+
+    .header-bottom-slider-left-btns-fourth {
+        width: 150px;
+    }
+
+    .header-top {
+        padding: 12px;
+        &-search {
+            &-bar {
+                gap: 16px
+            }
+        }
+    }
+
+    .header-bottom {
+        @include mixin.flex (space-between, center, 0);
     }
 
     .header-top-search-bar-right-tablet {
@@ -960,6 +1007,469 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
         input {
             width: 286px;
         }
+    }
+
+    .main-title {
+        flex-direction: column-reverse;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 24px;
+        
+        &-center {
+            box-shadow: none;
+            align-items: flex-start;
+        }
+
+        &-right {
+            display: none;
+        }
+    }
+
+    .title-left-image {
+        width: 336px;
+        height: 228px;
+    }
+
+    .main-title-left {
+        width: 96%;
+        @include mixin.flex (space-between, flex-start, 0);
+        padding: 24px;
+
+        h5 {
+            @include mixin.font (normal, 700, 20px, 100%, $black);
+            overflow-y: hidden;
+        }
+
+        ul {
+            align-items: flex-start;
+        }
+
+        &-bottom {
+            width: 336px;
+
+            ul {
+                gap: 32px;
+            }
+        }
+
+        &-top {
+            margin-bottom: 0;
+            height: 285px;
+        }
+    }
+
+    .main-title-right-tablet {
+        display: flex;
+        width: 736px;
+        margin: auto;
+        padding: 24px;
+        @include mixin.flex (center, flex-start, 0);
+        flex-direction: column;
+
+        h3 {
+            @include mixin.font (normal, 800, 18px, 110%, $black);
+            font-feature-settings: "liga" off;
+            margin-bottom: 16px;
+        }
+
+        &-top {
+            width: 100%;
+            @include mixin.flex (space-between, center, 0);
+            border-bottom: 1px solid $light-grey;
+            margin-bottom: 12px;
+
+            &-box {
+                a {
+                    text-decoration: none;
+                }
+                
+                p {
+                    @include mixin.font (normal, 500, 18px, 120%, $body-grey);
+                    text-transform: lowercase;
+                    font-feature-settings: "liga" off;
+                    margin-bottom: 12px;
+                    span {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            width: 100%;
+            @include mixin.flex (space-between, center, 0);
+            margin-bottom: 12px;
+        }
+
+        &-scroll {
+            width: 290px;
+            height: 4px;
+            background-color: $blue;
+        }
+    }
+
+    .main-card-block {
+        display: none;
+    }
+
+    .main-card-block-tablet {
+        display: block;
+        width: 359px;
+        background-color: $black;
+        border-radius: 10px;
+        padding: 12px;
+
+        &-top {
+            background-color: $red;
+            border-radius: 6px;
+            width: 335px;
+            height: 240px;
+            margin: auto;
+        }
+
+        &-bottom {
+            width: 335px;
+
+            h3 {
+                @include mixin.font (normal, 700, 20px, 100%, $white);
+                overflow-y: hidden;
+            }
+
+            &-data {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 177px;
+                height: 15px;
+                @include mixin.flex (space-between, center, 0);
+
+                &-day {
+
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
+
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .small-card-left {
+        display: none;
+    }
+
+    .small-card-right {
+        display: none;
+    }
+
+    .small-card {
+        @include mixin.flex (space-between, center, 16px); 
+        flex-wrap: wrap;
+    }
+
+    .small-card-tablet {
+        display: block;
+        width: 359px;
+
+        &-top {
+            width: 100%;
+            height: 281px;
+            background-color: $rose;
+            border-radius: 10px;
+        }
+
+        &-bottom {
+            width: 100%;
+            &-data {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 177px;
+                height: 15px;
+                @include mixin.flex (space-between, center, 0);
+
+                &-day {
+
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $black);
+                        font-feature-settings: "liga" off;
+                    }
+                }
+
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-dark-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $black);
+                        font-feature-settings: "liga" off;
+                    }
+
+                }
+            }
+
+            &-title {
+                h3 {
+                    @include mixin.font (normal, 700, 20px, 100%, $black);
+                    overflow-y: hidden;
+                }
+            }
+        }
+    }
+
+    .abs-block {
+        display: none;
+    }
+
+    .inform-part-item {
+        display: none;
+    }
+
+    .inform-part {
+        @include mixin.flex (space-between, center, 16px); 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .inform-part-item-tablet {
+        display: block;
+        width: 359px;
+
+        &-top {
+            width: 100%;
+            height: 280px;
+            background-color: $yellow;
+            border-radius: 10px;
+        }
+
+        &-bottom {
+            width: 100%;
+            background-color: $black;
+            border-radius: 10px;
+            padding: 12px;
+            overflow-y: hidden;
+
+            h3 {
+                @include mixin.font (normal, 800, 36px, 110%, $white);
+                font-feature-settings: "liga" off;
+                overflow-y: hidden;
+                margin-bottom: 8px;
+            }
+
+            h5 {
+                @include mixin.font (normal, 400, 18px, 120%, $white);
+                font-feature-settings: "liga" off;
+            }
+
+            &-data {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 177px;
+                height: 15px;
+                @include mixin.flex (space-between, center, 0);
+
+                &-day {
+
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
+
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+
+                }
+            }
+        }
+    }
+    .second-small {
+        display: none;
+    }
+
+    .test-title {
+        &-abs {
+            width: 140px;
+            height: 140px;
+        }
+
+        &-text {
+            width: 536px;
+            height: 140px;
+            p {
+                @include mixin.font (normal, 700, 24px, 100%, $black);
+            }
+        }
+    }
+
+    .results {
+        display: none;
+    }
+
+    .mailing-top {
+        margin-bottom: 16px;
+        h5 {
+            @include mixin.font (normal, 600, 48px, 110%, $dark-text);
+            text-align: center;
+            font-feature-settings: "liga" off;
+            width: 688px;
+        }
+    }
+
+    .mailing-bottom {
+        @include mixin.flex (center, center, 24px);
+        flex-direction: column;
+
+        input {
+            width: 688px;
+        }
+
+        &-btn {
+            width: 688px;
+        }
+    }
+
+    .ideas-top {
+        display: none;
+    }
+
+    .ideas-bottom {
+        display: none;
+    }
+
+    .ideas {
+        gap: 16px;
+    }
+
+    .ideas-tablet-first {
+        display: block;
+        width: 736px;
+        height: 736px;
+        background-color: $white;
+        border-radius: 20.5014px;
+        padding: 24px;
+        overflow-y: hidden;
+        
+        img {
+            margin-bottom: 472.14px;
+        }
+
+        h5 {
+            @include mixin.font (normal, 800, 48px, 110%, $black);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+        }
+    }
+
+    .ideas-tablet-second {
+        display: block;
+        width: 736px;
+        background-color: $black;
+        border-radius: 10px;
+        box-shadow: 0px 8.20056px 8.20056px rgba(0, 0, 0, 0.25);
+        padding: 24px;
+
+        h3 {
+            @include mixin.font (normal, 600, 48px, 110%, $white);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+        }
+
+        &-btn {
+            margin-top: 24px;
+            width: 688px;
+            height: 98px;
+            background-color: $orange-red;
+            border-radius: 10px;
+            @include mixin.font (normal, 800, 36px, 110%, $white);
+            text-align: center;
+            font-feature-settings: "liga" off;
+        }
+        
+    }
+    .second-ideas-title {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .ideas-tablet-third {
+        display: block;
+        width: 736px;
+        background-color: $black;
+        border-radius: 20.5014px;
+        padding: 24px;
+
+        h4 {
+            width: 686px;
+            @include mixin.font (normal, 600, 42px, 110%, $white);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+            margin-bottom: 45px;
+        }
+
+        &-btn {
+            width: 688px;
+            height: 114px;
+            background-color: $white;
+            border-radius: 10px;
+            border: 0;
+            @include mixin.font (normal, 600, 48px, 110%, $black);
+            text-align: center;
+            font-feature-settings: "liga" off;
+        }
+    }
+
+    .ideas-tablet-fourth {
+        display: flex;
+        width: 736px;
+        @include mixin.flex (space-between, center, 0);
+
+        &-text {
+            width: 164px;
+            height: 637px;
+            background-color: $black;
+            border-radius: 10px;
+            @include mixin.flex (center, center, 0);
+            position: relative;
+            h5 {
+                @include mixin.font (normal, 800, 36px, 110%, $white);
+                display: flex;
+                align-items: center;
+                text-align: center;
+                font-feature-settings: "liga" off;
+                transform: rotate(-90deg);
+                position: absolute;
+                overflow-y: hidden;
+            }
+        }
+    }
+    .footer {
+        display: none;
+    }
+
+    .tablet-footer {
+        display: block;
     }
 }
 

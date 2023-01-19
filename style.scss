@@ -920,6 +920,10 @@ $img-dark-clock: "dark-clock.svg";
     display: none;
 }
 
+.main-title-modile {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 100%;
@@ -1474,5 +1478,62 @@ $img-dark-clock: "dark-clock.svg";
 }
 
 @media only screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 96%;
+    }
+
+    .abs-block-first {
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .header-bottom {
+        display: none;
+    }
+
+    .header-top-search-bar {
+        display: none;
+    }
+
+    .header-top {
+        justify-content: center;
+    }
+
+    .header {
+        margin-bottom: 16px;
+    }
+
+    .main-title-right-tablet {
+        display: none;
+    }
+
+    .main-title-center {
+        display: none;
+    }
+
+    .main-title-left {
+        display: none;
+    }
+
+    .main-title-right {
+        display: none;
+    }
+
+    .main-title-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &-image {
+            width: 335px;
+            height: 220px;
+            background-color: $blue;
+            border-radius: 6px;
+        }
+    }
 
 }

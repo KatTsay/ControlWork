@@ -41,8 +41,7 @@ $img-footer-banner: "LOGOTYPE-footer.svg";
 $img-dark-clock: "dark-clock.svg";
 
 .container {
-    // width: 75.7%;
-    width: 56.8%;
+    width: 75.7%;
     margin: auto;
     background-color: $white;
 }
@@ -663,7 +662,6 @@ $img-dark-clock: "dark-clock.svg";
 .results {
     @include mixin.flex (center, center, 0);
     background-color: $black;
-    // width: 1408px;
     border-radius: 10px;
     padding: 52px 0;
     margin: auto;
@@ -921,623 +919,1298 @@ $img-dark-clock: "dark-clock.svg";
     display: none;
 }
 
-.main-title-mobile {
+.main-title-mobile-top {
+    display: none;
+}
+
+.main-title-mobile-center {
+    display: none;
+}
+
+.main-title-mobile-bottom {
+    display: none;
+}
+
+.main-card-block-mobile {
+    display: none;
+}
+
+.test-title-mobile {
+    display: none;
+}
+
+.small-card-mobile {
+    display: none;
+}
+
+.results-mobile {
+    display: none;
+}
+
+.mobile-bt {
+    display: non;
+}
+
+.ideas-tablet-first-tablet-img {
+    display: none;
+}
+
+.ideas-tablet-first-mobile-img {
+    display: none;
+}
+
+.mobile-footer {
     display: none;
 }
 
 @media only screen and (max-width: 768px) {
-    // .container {
-    //     width: 100%;
-    // }
+    .mobile-footer {
+        display: none;
+    }
 
-    // .wrapper {
-    //     width: 96%;
-    // }
+    .main-title-mobile-bottom {
+        display: none;
+    }
 
-    // .abs-block {
-    //     width: 100%;
-    //     padding: 45px 0;
-    // }
+    .ideas-tablet-first-mobile-img {
+        display: none;
+    }
 
-    // .header-bottom-slider-left-btns-fifth {
-    //     display: none;
-    // }
+    .results-mobile {
+        display: none;
+    }
 
-    // .header-bottom-slider-left-btns-sixth {
-    //     display: none;
-    // }
+    .mobile-bt {
+        display:none;
+    }
 
-    // .header-bottom-slider-left-btns-seventh {
-    //     display: none;
-    // }
+    .small-card-mobile {
+        display: none;
+    }
 
-    // .header-bottom-slider-left-btns-eight {
-    //     display: none;
-    // }
+    .test-title-mobile {
+        display: none;
+    }
 
-    // .header-bottom-slider-right {
-    //     display: none;
-    // }
+    .main-title-mobile-center {
+        display: none;
+    }
 
-    // .header-top-search-bar-right {
-    //     display: none;
-    // }
+    .main-card-block-mobile {
+        display: none;
+    }
 
-    // .header-bottom-slider-left-btns-fourth {
-    //     width: 150px;
-    // }
+    .main-title-mobile-top {
+        display: none;
+    }
 
-    // .header-top {
-    //     padding: 12px;
-    //     &-search {
-    //         &-bar {
-    //             gap: 16px
-    //         }
-    //     }
-    // }
+    .container {
+        width: 100%;
+    }
 
-    // .header-bottom {
-    //     @include mixin.flex (space-between, center, 0);
-    // }
+    .wrapper {
+        width: 96%;
+    }
 
-    // .header-top-search-bar-right-tablet {
-    //     @include mixin.flex (space-between, center, 0);
-    //     width: 196px;
+    .abs-block {
+        width: 100%;
+        padding: 45px 0;
+    }
 
-    //     &-theme {
-    //         @include mixin.flex (space-between, center, 0);
-    //         padding: 4px 40px 4px 4px;
-    //         width: 84px;
-    //         height: 48px;
-    //         background-color: $black;
-    //         border-radius: 32px;
-    //         background-image: url(#{$image-path}#{$img-sun});
-    //         background-repeat: no-repeat;
-    //         background-position: 90% center;
+    .header-bottom-slider-left-btns-fifth {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-sixth {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-seventh {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-eight {
+        display: none;
+    }
+
+    .header-bottom-slider-right {
+        display: none;
+    }
+
+    .header-top-search-bar-right {
+        display: none;
+    }
+
+    .header-bottom-slider-left-btns-fourth {
+        width: 150px;
+    }
+
+    .header-top {
+        padding: 12px;
+        &-search {
+            &-bar {
+                gap: 16px
+            }
+        }
+    }
+
+    .header-bottom {
+        @include mixin.flex (space-between, center, 0);
+    }
+
+    .header-top-search-bar-right-tablet {
+        @include mixin.flex (space-between, center, 0);
+        width: 196px;
+
+        &-theme {
+            @include mixin.flex (space-between, center, 0);
+            padding: 4px 40px 4px 4px;
+            width: 84px;
+            height: 48px;
+            background-color: $black;
+            border-radius: 32px;
+            background-image: url(#{$image-path}#{$img-sun});
+            background-repeat: no-repeat;
+            background-position: 90% center;
             
-    //         &-circle {
-    //             width: 40px;
-    //             height: 40px;
-    //             background-color: $white;
-    //             border-radius: 100%;
-    //         }
-    //     }
+            &-circle {
+                width: 40px;
+                height: 40px;
+                background-color: $white;
+                border-radius: 100%;
+            }
+        }
 
-    //     h3 {
-    //         @include mixin.font (normal, 400, 18px, 120%, $white);
-    //     }
-    // }
+        h3 {
+            @include mixin.font (normal, 400, 18px, 120%, $white);
+        }
+    }
 
-    // .header-top-search-bar-left {
-    //     input {
-    //         width: 286px;
-    //     }
-    // }
+    .header-top-search-bar-left {
+        input {
+            width: 286px;
+        }
+    }
 
-    // .main-title {
-    //     flex-direction: column-reverse;
-    //     gap: 16px;
-    //     align-items: center;
-    //     margin-bottom: 24px;
+    .main-title {
+        flex-direction: column-reverse;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 24px;
         
-    //     &-center {
-    //         box-shadow: none;
-    //         align-items: flex-start;
-    //     }
+        &-center {
+            box-shadow: none;
+            align-items: flex-start;
+        }
 
-    //     &-right {
-    //         display: none;
-    //     }
-    // }
+        &-right {
+            display: none;
+        }
+    }
 
-    // .title-left-image {
-    //     width: 336px;
-    //     height: 228px;
-    // }
+    .title-left-image {
+        width: 336px;
+        height: 228px;
+    }
 
-    // .main-title-left {
-    //     width: 96%;
-    //     @include mixin.flex (space-between, flex-start, 0);
-    //     padding: 24px;
+    .main-title-left {
+        width: 96%;
+        @include mixin.flex (space-between, flex-start, 0);
+        padding: 24px;
 
-    //     h5 {
-    //         @include mixin.font (normal, 700, 20px, 100%, $black);
-    //         overflow-y: hidden;
-    //     }
+        h5 {
+            @include mixin.font (normal, 700, 20px, 100%, $black);
+            overflow-y: hidden;
+        }
 
-    //     ul {
-    //         align-items: flex-start;
-    //     }
+        ul {
+            align-items: flex-start;
+        }
 
-    //     &-bottom {
-    //         width: 336px;
+        &-bottom {
+            width: 336px;
 
-    //         ul {
-    //             gap: 32px;
-    //         }
-    //     }
+            ul {
+                gap: 32px;
+            }
+        }
 
-    //     &-top {
-    //         margin-bottom: 0;
-    //         height: 285px;
-    //     }
-    // }
+        &-top {
+            margin-bottom: 0;
+            height: 285px;
+        }
+    }
 
-    // .main-title-right-tablet {
-    //     display: flex;
-    //     width: 736px;
-    //     margin: auto;
-    //     padding: 24px;
-    //     @include mixin.flex (center, flex-start, 0);
-    //     flex-direction: column;
+    .main-title-right-tablet {
+        display: flex;
+        width: 736px;
+        margin: auto;
+        padding: 24px;
+        @include mixin.flex (center, flex-start, 0);
+        flex-direction: column;
 
-    //     h3 {
-    //         @include mixin.font (normal, 800, 18px, 110%, $black);
-    //         font-feature-settings: "liga" off;
-    //         margin-bottom: 16px;
-    //     }
+        h3 {
+            @include mixin.font (normal, 800, 18px, 110%, $black);
+            font-feature-settings: "liga" off;
+            margin-bottom: 16px;
+        }
 
-    //     &-top {
-    //         width: 100%;
-    //         @include mixin.flex (space-between, center, 0);
-    //         border-bottom: 1px solid $light-grey;
-    //         margin-bottom: 12px;
+        &-top {
+            width: 100%;
+            @include mixin.flex (space-between, center, 0);
+            border-bottom: 1px solid $light-grey;
+            margin-bottom: 12px;
 
-    //         &-box {
-    //             a {
-    //                 text-decoration: none;
-    //             }
+            &-box {
+                a {
+                    text-decoration: none;
+                }
                 
-    //             p {
-    //                 @include mixin.font (normal, 500, 18px, 120%, $body-grey);
-    //                 text-transform: lowercase;
-    //                 font-feature-settings: "liga" off;
-    //                 margin-bottom: 12px;
-    //                 span {
-    //                     color: $black;
-    //                 }
-    //             }
-    //         }
-    //     }
+                p {
+                    @include mixin.font (normal, 500, 18px, 120%, $body-grey);
+                    text-transform: lowercase;
+                    font-feature-settings: "liga" off;
+                    margin-bottom: 12px;
+                    span {
+                        color: $black;
+                    }
+                }
+            }
+        }
 
-    //     &-bottom {
-    //         width: 100%;
-    //         @include mixin.flex (space-between, center, 0);
-    //         margin-bottom: 12px;
-    //     }
+        &-bottom {
+            width: 100%;
+            @include mixin.flex (space-between, center, 0);
+            margin-bottom: 12px;
+        }
 
-    //     &-scroll {
-    //         width: 290px;
-    //         height: 4px;
-    //         background-color: $blue;
-    //     }
-    // }
+        &-scroll {
+            width: 290px;
+            height: 4px;
+            background-color: $blue;
+        }
+    }
 
-    // .main-card-block {
-    //     display: none;
-    // }
+    .main-card-block {
+        display: none;
+    }
 
-    // .main-card-block-tablet {
-    //     display: block;
-    //     width: 359px;
-    //     background-color: $black;
-    //     border-radius: 10px;
-    //     padding: 12px;
+    .main-card-block-tablet {
+        display: block;
+        width: 359px;
+        background-color: $black;
+        border-radius: 10px;
+        padding: 12px;
 
-    //     &-top {
-    //         background-color: $red;
-    //         border-radius: 6px;
-    //         width: 335px;
-    //         height: 240px;
-    //         margin: auto;
-    //     }
+        &-top {
+            background-color: $red;
+            border-radius: 6px;
+            width: 335px;
+            height: 240px;
+            margin: auto;
+        }
 
-    //     &-bottom {
-    //         width: 335px;
+        &-bottom {
+            width: 335px;
 
-    //         h3 {
-    //             @include mixin.font (normal, 700, 20px, 100%, $white);
-    //             overflow-y: hidden;
-    //         }
+            h3 {
+                @include mixin.font (normal, 700, 20px, 100%, $white);
+                overflow-y: hidden;
+            }
 
-    //         &-data {
-    //             margin-top: 12px;
-    //             margin-bottom: 12px;
-    //             width: 177px;
-    //             height: 15px;
-    //             @include mixin.flex (space-between, center, 0);
+            &-data {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 177px;
+                height: 15px;
+                @include mixin.flex (space-between, center, 0);
 
-    //             &-day {
+                &-day {
 
-    //                 p {
-    //                     @include mixin.font (normal, 400, 12px, 140%, $white);
-    //                     font-feature-settings: "liga" off;
-    //                 }
-    //             }
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
 
-    //             &-time {
-    //                 width: 79px;
-    //                 @include mixin.flex (flex-end, center, 0);
-    //                 background-image: url(#{$image-path}#{$img-clock});
-    //                 background-repeat: no-repeat;
-    //                 background-position: 13% center;
-    //                 p {
-    //                     @include mixin.font (normal, 400, 12px, 140%, $white);
-    //                     font-feature-settings: "liga" off;
-    //                 }
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
 
-    //             }
-    //         }
-    //     }
-    // }
+                }
+            }
+        }
+    }
 
-    // .small-card-left {
-    //     display: none;
-    // }
+    .small-card-left {
+        display: none;
+    }
 
-    // .small-card-right {
-    //     display: none;
-    // }
+    .small-card-right {
+        display: none;
+    }
 
-    // .small-card {
-    //     @include mixin.flex (space-between, center, 16px); 
-    //     flex-wrap: wrap;
-    // }
+    .small-card {
+        @include mixin.flex (space-between, center, 16px); 
+        flex-wrap: wrap;
+    }
 
-    // .small-card-tablet {
-    //     display: block;
-    //     width: 359px;
+    .small-card-tablet {
+        display: block;
+        width: 359px;
 
-    //     &-top {
-    //         width: 100%;
-    //         height: 281px;
-    //         background-color: $rose;
-    //         border-radius: 10px;
-    //     }
+        &-top {
+            width: 100%;
+            height: 281px;
+            background-color: $rose;
+            border-radius: 10px;
+        }
 
-    //     &-bottom {
-    //         width: 100%;
-    //         &-data {
-    //             margin-top: 12px;
-    //             margin-bottom: 12px;
-    //             width: 177px;
-    //             height: 15px;
-    //             @include mixin.flex (space-between, center, 0);
+        &-bottom {
+            width: 100%;
+            &-data {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 177px;
+                height: 15px;
+                @include mixin.flex (space-between, center, 0);
 
-    //             &-day {
+                &-day {
 
-    //                 p {
-    //                     @include mixin.font (normal, 400, 12px, 140%, $black);
-    //                     font-feature-settings: "liga" off;
-    //                 }
-    //             }
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $black);
+                        font-feature-settings: "liga" off;
+                    }
+                }
 
-    //             &-time {
-    //                 width: 79px;
-    //                 @include mixin.flex (flex-end, center, 0);
-    //                 background-image: url(#{$image-path}#{$img-dark-clock});
-    //                 background-repeat: no-repeat;
-    //                 background-position: 13% center;
-    //                 p {
-    //                     @include mixin.font (normal, 400, 12px, 140%, $black);
-    //                     font-feature-settings: "liga" off;
-    //                 }
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-dark-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $black);
+                        font-feature-settings: "liga" off;
+                    }
 
-    //             }
-    //         }
+                }
+            }
 
-    //         &-title {
-    //             h3 {
-    //                 @include mixin.font (normal, 700, 20px, 100%, $black);
-    //                 overflow-y: hidden;
-    //             }
-    //         }
-    //     }
-    // }
+            &-title {
+                h3 {
+                    @include mixin.font (normal, 700, 20px, 100%, $black);
+                    overflow-y: hidden;
+                }
+            }
+        }
+    }
 
-    // .abs-block {
-    //     display: none;
-    // }
+    .abs-block {
+        display: none;
+    }
 
-    // .inform-part-item {
-    //     display: none;
-    // }
+    .inform-part-item {
+        display: none;
+    }
 
-    // .inform-part {
-    //     @include mixin.flex (space-between, center, 16px); 
-    //     flex-direction: row;
-    //     flex-wrap: wrap;
-    // }
+    .inform-part {
+        @include mixin.flex (space-between, center, 16px); 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
-    // .inform-part-item-tablet {
-    //     display: block;
-    //     width: 359px;
+    .inform-part-item-tablet {
+        display: block;
+        width: 359px;
 
-    //     &-top {
-    //         width: 100%;
-    //         height: 280px;
-    //         background-color: $yellow;
-    //         border-radius: 10px;
-    //     }
+        &-top {
+            width: 100%;
+            height: 280px;
+            background-color: $yellow;
+            border-radius: 10px;
+        }
 
-    //     &-bottom {
-    //         width: 100%;
-    //         background-color: $black;
-    //         border-radius: 10px;
-    //         padding: 12px;
-    //         overflow-y: hidden;
+        &-bottom {
+            width: 100%;
+            background-color: $black;
+            border-radius: 10px;
+            padding: 12px;
+            overflow-y: hidden;
 
-    //         h3 {
-    //             @include mixin.font (normal, 800, 36px, 110%, $white);
-    //             font-feature-settings: "liga" off;
-    //             overflow-y: hidden;
-    //             margin-bottom: 8px;
-    //         }
+            h3 {
+                @include mixin.font (normal, 800, 36px, 110%, $white);
+                font-feature-settings: "liga" off;
+                overflow-y: hidden;
+                margin-bottom: 8px;
+            }
 
-    //         h5 {
-    //             @include mixin.font (normal, 400, 18px, 120%, $white);
-    //             font-feature-settings: "liga" off;
-    //         }
+            h5 {
+                @include mixin.font (normal, 400, 18px, 120%, $white);
+                font-feature-settings: "liga" off;
+            }
 
-    //         &-data {
-    //             margin-top: 12px;
-    //             margin-bottom: 12px;
-    //             width: 177px;
-    //             height: 15px;
-    //             @include mixin.flex (space-between, center, 0);
+            &-data {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 177px;
+                height: 15px;
+                @include mixin.flex (space-between, center, 0);
 
-    //             &-day {
+                &-day {
 
-    //                 p {
-    //                     @include mixin.font (normal, 400, 12px, 140%, $white);
-    //                     font-feature-settings: "liga" off;
-    //                 }
-    //             }
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
 
-    //             &-time {
-    //                 width: 79px;
-    //                 @include mixin.flex (flex-end, center, 0);
-    //                 background-image: url(#{$image-path}#{$img-clock});
-    //                 background-repeat: no-repeat;
-    //                 background-position: 13% center;
-    //                 p {
-    //                     @include mixin.font (normal, 400, 12px, 140%, $white);
-    //                     font-feature-settings: "liga" off;
-    //                 }
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
 
-    //             }
-    //         }
-    //     }
-    // }
+                }
+            }
+        }
+    }
 
-    // .second-small {
-    //     display: none;
-    // }
+    .second-small {
+        display: none;
+    }
 
-    // .test-title {
-    //     &-abs {
-    //         width: 140px;
-    //         height: 140px;
-    //     }
+    .test-title {
+        &-abs {
+            width: 140px;
+            height: 140px;
+        }
 
-    //     &-text {
-    //         width: 536px;
-    //         height: 140px;
-    //         p {
-    //             @include mixin.font (normal, 700, 24px, 100%, $black);
-    //         }
-    //     }
-    // }
+        &-text {
+            width: 536px;
+            height: 140px;
+            p {
+                @include mixin.font (normal, 700, 24px, 100%, $black);
+            }
+        }
+    }
 
-    // .results {
-    //     display: none;
-    // }
+    .results {
+        display: none;
+    }
 
-    // .mailing-top {
-    //     margin-bottom: 16px;
-    //     h5 {
-    //         @include mixin.font (normal, 600, 48px, 110%, $dark-text);
-    //         text-align: center;
-    //         font-feature-settings: "liga" off;
-    //         width: 688px;
-    //     }
-    // }
+    .mailing-top {
+        margin-bottom: 16px;
+        h5 {
+            @include mixin.font (normal, 600, 48px, 110%, $dark-text);
+            text-align: center;
+            font-feature-settings: "liga" off;
+            width: 688px;
+        }
+    }
 
-    // .mailing-bottom {
-    //     @include mixin.flex (center, center, 24px);
-    //     flex-direction: column;
+    .mailing-bottom {
+        @include mixin.flex (center, center, 24px);
+        flex-direction: column;
 
-    //     input {
-    //         width: 688px;
-    //     }
+        input {
+            width: 688px;
+        }
 
-    //     &-btn {
-    //         width: 688px;
-    //     }
-    // }
+        &-btn {
+            width: 688px;
+        }
+    }
 
-    // .ideas-top {
-    //     display: none;
-    // }
+    .ideas-top {
+        display: none;
+    }
 
-    // .ideas-bottom {
-    //     display: none;
-    // }
+    .ideas-bottom {
+        display: none;
+    }
 
-    // .ideas {
-    //     gap: 16px;
-    // }
+    .ideas {
+        gap: 16px;
+    }
 
-    // .ideas-tablet-first {
-    //     display: block;
-    //     width: 736px;
-    //     height: 736px;
-    //     background-color: $white;
-    //     border-radius: 20.5014px;
-    //     padding: 24px;
-    //     overflow-y: hidden;
+    .ideas-tablet-first {
+        display: block;
+        width: 736px;
+        // height: 736px;
+        background-color: $white;
+        border-radius: 20.5014px;
+        padding: 24px;
+        overflow-y: hidden;
         
-    //     img {
-    //         margin-bottom: 472.14px;
-    //     }
+        &-tablet-img {
+            display: block;
+            margin-bottom: 472.14px;
+        }
 
-    //     h5 {
-    //         @include mixin.font (normal, 800, 48px, 110%, $black);
-    //         font-feature-settings: "liga" off;
-    //         overflow-y: hidden;
-    //     }
-    // }
+        h5 {
+            @include mixin.font (normal, 800, 48px, 110%, $black);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+        }
+    }
 
-    // .ideas-tablet-second {
-    //     display: block;
-    //     width: 736px;
-    //     background-color: $black;
-    //     border-radius: 10px;
-    //     box-shadow: 0px 8.20056px 8.20056px rgba(0, 0, 0, 0.25);
-    //     padding: 24px;
+    .ideas-tablet-second {
+        display: block;
+        width: 736px;
+        background-color: $black;
+        border-radius: 10px;
+        box-shadow: 0px 8.20056px 8.20056px rgba(0, 0, 0, 0.25);
+        padding: 24px;
 
-    //     h3 {
-    //         @include mixin.font (normal, 600, 48px, 110%, $white);
-    //         font-feature-settings: "liga" off;
-    //         overflow-y: hidden;
-    //     }
+        h3 {
+            @include mixin.font (normal, 600, 48px, 110%, $white);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+        }
 
-    //     &-btn {
-    //         margin-top: 24px;
-    //         width: 688px;
-    //         height: 98px;
-    //         background-color: $orange-red;
-    //         border-radius: 10px;
-    //         @include mixin.font (normal, 800, 36px, 110%, $white);
-    //         text-align: center;
-    //         font-feature-settings: "liga" off;
-    //     }
+        &-btn {
+            margin-top: 24px;
+            width: 688px;
+            height: 98px;
+            background-color: $orange-red;
+            border-radius: 10px;
+            @include mixin.font (normal, 800, 36px, 110%, $white);
+            text-align: center;
+            font-feature-settings: "liga" off;
+        }
         
-    // }
+    }
 
-    // .second-ideas-title {
-    //     margin-top: 35px;
-    //     margin-bottom: 35px;
-    // }
+    .second-ideas-title {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
 
-    // .ideas-tablet-third {
-    //     display: block;
-    //     width: 736px;
-    //     background-color: $black;
-    //     border-radius: 20.5014px;
-    //     padding: 24px;
+    .ideas-tablet-third {
+        display: block;
+        width: 736px;
+        background-color: $black;
+        border-radius: 20.5014px;
+        padding: 24px;
 
-    //     h4 {
-    //         width: 686px;
-    //         @include mixin.font (normal, 600, 42px, 110%, $white);
-    //         font-feature-settings: "liga" off;
-    //         overflow-y: hidden;
-    //         margin-bottom: 45px;
-    //     }
+        h4 {
+            width: 686px;
+            @include mixin.font (normal, 600, 42px, 110%, $white);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+            margin-bottom: 45px;
+        }
 
-    //     &-btn {
-    //         width: 688px;
-    //         height: 114px;
-    //         background-color: $white;
-    //         border-radius: 10px;
-    //         border: 0;
-    //         @include mixin.font (normal, 600, 48px, 110%, $black);
-    //         text-align: center;
-    //         font-feature-settings: "liga" off;
-    //     }
-    // }
+        &-btn {
+            width: 688px;
+            height: 114px;
+            background-color: $white;
+            border-radius: 10px;
+            border: 0;
+            @include mixin.font (normal, 600, 48px, 110%, $black);
+            text-align: center;
+            font-feature-settings: "liga" off;
+        }
+    }
 
-    // .ideas-tablet-fourth {
-    //     display: flex;
-    //     width: 736px;
-    //     @include mixin.flex (space-between, center, 0);
+    .ideas-tablet-fourth {
+        display: flex;
+        width: 736px;
+        @include mixin.flex (space-between, center, 0);
 
-    //     &-text {
-    //         width: 164px;
-    //         height: 637px;
-    //         background-color: $black;
-    //         border-radius: 10px;
-    //         @include mixin.flex (center, center, 0);
-    //         position: relative;
-    //         h5 {
-    //             @include mixin.font (normal, 800, 36px, 110%, $white);
-    //             display: flex;
-    //             align-items: center;
-    //             text-align: center;
-    //             font-feature-settings: "liga" off;
-    //             transform: rotate(-90deg);
-    //             position: absolute;
-    //             overflow-y: hidden;
-    //         }
-    //     }
-    // }
+        &-text {
+            width: 164px;
+            height: 637px;
+            background-color: $black;
+            border-radius: 10px;
+            @include mixin.flex (center, center, 0);
+            position: relative;
+            h5 {
+                @include mixin.font (normal, 800, 36px, 110%, $white);
+                display: flex;
+                align-items: center;
+                text-align: center;
+                font-feature-settings: "liga" off;
+                transform: rotate(-90deg);
+                position: absolute;
+                overflow-y: hidden;
+            }
+        }
+    }
 
-    // .footer {
-    //     display: none;
-    // }
+    .footer {
+        display: none;
+    }
 
-    // .tablet-footer {
-    //     display: block;
-    // }
+    .tablet-footer {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 375px) {
-    // .container {
-    //     width: 100%;
-    // }
+    .container {
+        width: 100%;
+    }
 
-    // .wrapper {
-    //     width: 96%;
-    // }
+    .wrapper {
+        width: 96%;
+    }
 
-    // .abs-block-first {
-    //     padding: 0;
-    //     border-radius: 10px;
-    // }
+    .abs-block-first {
+        padding: 0;
+        border-radius: 10px;
+        margin-bottom: 9px;
+    }
 
-    // .header-bottom {
-    //     display: none;
-    // }
+    .header-bottom {
+        display: none;
+    }
 
-    // .header-top-search-bar {
-    //     display: none;
-    // }
+    .header-top-search-bar {
+        display: none;
+    }
 
-    // .header-top {
-    //     justify-content: center;
-    // }
+    .header-top {
+        justify-content: center;
+    }
 
-    // .header {
-    //     margin-bottom: 16px;
-    // }
+    .header {
+        margin-bottom: 16px;
+    }
 
-    // .main-title-right-tablet {
-    //     display: none;
-    // }
+    .main-title-right-tablet {
+        display: none;
+    }
 
-    // .main-title-center {
-    //     display: none;
-    // }
+    .main-title-center {
+        display: none;
+    }
 
-    // .main-title-left {
-    //     display: none;
-    // }
+    .main-title-left {
+        display: none;
+    }
 
-    // .main-title-right {
-    //     display: none;
-    // }
+    .main-title-right {
+        display: none;
+    }
 
-    // .main-title-mobile {
-    //     display: flex;
-    //     flex-direction: column;
-    //     gap: 12px;
+    .main-title-mobile-top {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px;
 
-    //     &-image {
-    //         width: 335px;
-    //         height: 220px;
-    //         background-color: $blue;
-    //         border-radius: 6px;
-    //     }
-    // }
+        h3 {
+            @include mixin.font (normal, 700, 24px, 100%, $black);
+            overflow-y: hidden;
+        }
 
+        h4 {
+            @include mixin.font (normal, 400, 18px, 120%, $black);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+            width: 335px;
+        }
+
+        &-image {
+            width: 335px;
+            height: 220px;
+            background-color: $blue;
+            border-radius: 6px;
+        }
+
+        &-data {
+            @include mixin.flex (space-between, center, 0);
+            width: 177px;
+            
+            &-day {
+                p {
+                    @include mixin.font (normal, 400, 12px, 140%, $dark-grey);
+                    font-feature-settings: "liga" off;
+                }
+            }
+
+            &-time {
+                width: 79px;
+                @include mixin.flex (flex-end, center, 0);
+                background-image: url(#{$image-path}#{$img-dark-clock});
+                background-repeat: no-repeat;
+                background-position: 13% center;
+                p {
+                    @include mixin.font (normal, 400, 12px, 140%, $black);
+                    font-feature-settings: "liga" off;
+                }
+            }
+        }
+    }
+
+    .main-title {
+        flex-direction: column;
+        margin-bottom: 16px
+    }
+
+    .main-title-mobile-center {
+        @include mixin.flex (center, flex-start, 0);
+        flex-direction: column;
+        padding: 12px;
+        gap: 12px;
+
+        &-image {
+            width: 335px;
+            height: 182px;
+            background-color: $light-grey;
+            border-radius: 10px;
+        }
+
+        h3 {
+            @include mixin.font (normal, 700, 20px, 100%, $black);
+        }
+
+        &-item {
+            @include mixin.flex (center, center, 0);
+            flex-direction: column;
+            gap: 8px;
+
+            &-box {
+                @include mixin.flex (space-between, center, 0);
+                gap: 8px;
+
+                &-img {
+                    width: 72px;
+                    height: 72px;
+                    background-color: $light-grey;
+                    border-radius: 10px;
+                }
+
+                &-text {
+                    p {
+                        @include mixin.font (normal, 500, 16px, 140%, $black);
+                        font-feature-settings: "liga" off;
+                        width: 255px;
+                    }
+                    &-name {
+                        width: 98px;
+                        height: 25px;
+                        background-color: $green;
+                        border-radius: 6px;
+                        padding: 4px;
+                        h6 {
+                            @include mixin.font (normal, 500, 14px, 120%, $black);
+                            letter-spacing: -0.019em;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-title-mobile-bottom {
+        width: 359px;
+        display: flex;
+        padding: 12px;
+        @include mixin.flex (center, flex-start, 0);
+        flex-direction: column;
+
+        &-mobile-bt {
+                width: 100%;
+                @include mixin.flex (space-between, center, 0);
+                margin-bottom: 8px;
+        }
+
+        h3 {
+            @include mixin.font (normal, 800, 18px, 110%, $black);
+            font-feature-settings: "liga" off;
+            margin-bottom: 12px;
+        }
+
+        &-top {
+            width: 100%;
+            @include mixin.flex (space-between, center, 0);
+            border-bottom: 1px solid $light-grey;
+            margin-bottom: 12px;
+
+            &-box {
+                a {
+                    text-decoration: none;
+                }
+                
+                p {
+                    @include mixin.font (normal, 500, 18px, 120%, $body-grey);
+                    text-transform: lowercase;
+                    font-feature-settings: "liga" off;
+                    margin-bottom: 12px;
+                    span {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        &-scroll {
+            width: 290px;
+            height: 4px;
+            background-color: $blue;
+        }
+    }
+
+    .main-card-block-tablet {
+        display: none;
+    }
+
+    .main-card {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .main-card-block-mobile {
+        display: block;
+        width: 359px;
+        background-color: $black;
+        border-radius: 10px;
+        padding: 12px;
+
+        &-top {
+            background-color: $red;
+            border-radius: 6px;
+            width: 335px;
+            height: 240px;
+            margin: auto;
+        }
+
+        &-bottom {
+            width: 335px;
+
+            h3 {
+                @include mixin.font (normal, 700, 20px, 100%, $white);
+                overflow-y: hidden;
+            }
+
+            &-data {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 177px;
+                height: 15px;
+                @include mixin.flex (space-between, center, 0);
+
+                &-day {
+
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+                }
+
+                &-time {
+                    width: 79px;
+                    @include mixin.flex (flex-end, center, 0);
+                    background-image: url(#{$image-path}#{$img-clock});
+                    background-repeat: no-repeat;
+                    background-position: 13% center;
+                    p {
+                        @include mixin.font (normal, 400, 12px, 140%, $white);
+                        font-feature-settings: "liga" off;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .inform-part {
+        justify-content: center
+    }
+
+    .test { 
+    @include mixin.flex (center, center, 8px);
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    &-title {
+        width: 100%;
+        @include mixin.flex (space-between, center, 0);
+
+        &-abs {
+            width: 86px;
+            height: 86px;
+        }
+
+        &-btn {
+            @include mixin.flex (center, center, 0);
+            width: 24px;
+            height: 86px;
+            border-radius: 20px;
+            position: relative;
+            p {
+            @include mixin.font (normal, 400, 14px, 140%, $white);
+            position: absolute;
+            }
+        }
+
+        &-text {
+            display: none;
+        }
+    }
+    }
+
+    .test-title-mobile {
+    display: block;
+    width: 249px;
+    height: 86px;
+    background-color: $black;
+    border-radius: 10px;
+    @include mixin.flex (center, center, 0);
+    padding: 12px;
+    
+    p {
+        @include mixin.font (normal, 500, 16px, 140%, $white);
+        font-feature-settings: "liga" off;    
+    }
+    }
+
+    .inform-part {
+    margin-bottom: 16px;
+    }
+
+    .small-card-mobile {
+    @include mixin.flex (center, flex-start, 8px);
+    flex-direction: column;
+    width: 359px;
+    margin: auto;
+    margin-bottom: 8px;
+
+    &-top {
+        width: 359px;
+        height: 281px;
+        background-color: $rose;
+        border-radius: 10px;
+    }
+
+    &-bottom {
+        width: 100%;
+        &-data {
+            margin-top: 12px;
+            margin-bottom: 12px;
+            width: 177px;
+            height: 15px;
+            @include mixin.flex (space-between, center, 0);
+
+            &-day {
+
+                p {
+                    @include mixin.font (normal, 400, 12px, 140%, $black);
+                    font-feature-settings: "liga" off;
+                }
+            }
+
+            &-time {
+                width: 79px;
+                @include mixin.flex (flex-end, center, 0);
+                background-image: url(#{$image-path}#{$img-dark-clock});
+                background-repeat: no-repeat;
+                background-position: 13% center;
+                p {
+                    @include mixin.font (normal, 400, 12px, 140%, $black);
+                    font-feature-settings: "liga" off;
+                }
+
+            }
+        }
+
+        &-title {
+            h3 {
+                @include mixin.font (normal, 700, 20px, 100%, $black);
+                overflow-y: hidden;
+            }
+        }
+    }
+    }
+
+    .results {
+        display: none;
+    }
+
+    .results-mobile {
+    @include mixin.flex (center, center, 0);
+    background-color: $black;
+    height: 64px;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: auto;
+    margin-bottom: 16px;
+    a {
+        text-decoration: none;
+
+        h2 {
+            @include mixin.font (normal, 600, 25px, 100%, $white);
+            text-align: center;
+            letter-spacing: -0.019em;
+            overflow-y: hidden;
+            text-transform: uppercase;
+        }
+    }
+    }
+
+    .mailing {
+        @include mixin.flex (center, center, 8px);
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 8px;
+    
+        &-top {
+            @include mixin.flex (center, center, 13px);
+            flex-direction: column;
+            width: 100%;
+            background-color: $rose;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 0;
+    
+            h5 {
+                width: 335px;
+                @include mixin.font (normal, 700, 25px, 110%, $dark-grey);
+                text-align: center;
+                overflow-y: hidden;
+            }
+        }
+    
+        &-bottom {
+            padding: 12px;
+            width: 100%;
+            @include mixin.flex (space-around, center, 16px);
+            background-color: $black;
+            border-radius: 10px;
+    
+            input {
+                background-color: $bg-dark;
+                border-radius: 10px;
+                width: 335px;
+                height: 48px;
+                border: 0;
+                padding-left: 32px;
+            }
+    
+            &-btn {
+                @include mixin.flex (center, center, 0);
+                width: 335px;
+                height: 56px;
+                background-color: $red;
+                border-radius: 10px;
+                @include mixin.font (normal, 600, 25px, 100%, $white);
+                text-align: center;
+                letter-spacing: -0.019em;
+                border: 0;
+            }
+        }
+    }
+    
+    .mailing-bottom {
+        input::placeholder {
+            @include mixin.font (normal, 500, 25px, 120%, $body-grey);
+            // text-align: center;
+            letter-spacing: -0.019em;
+        }
+    }
+
+    .tablet-footer {
+        display: none;
+    }
+
+    .mobile-bt {
+        display: block;
+        margin: auto;
+        margin-bottom: 18px;
+
+        img {
+            width: 359px;
+        }
+    }
+
+    .tablet-footer {
+        display: none;
+    }
+    
+    .ideas-tablet-first-tablet-img {
+        display: none;
+    }
+
+    .ideas {
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .ideas-tablet-first {
+        display: block;
+        width: 359px;
+        background-color: $white;
+        border-radius: 10px;
+        padding: 12px;
+        overflow-y: hidden;
+        &-mobile-img {
+            display: block;
+            margin-bottom: 196px;
+        }
+
+        h5 {
+            @include mixin.font (normal, 600, 25px, 110%, $black);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+        }
+    }
+
+    .ideas-tablet-second {
+        display: block;
+        width: 359px;
+        background-color: $black;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 12px;
+
+        h3 {
+            @include mixin.font (normal, 800, 25px, 110%, $white);
+            font-feature-settings: "liga" off;
+            overflow-y: hidden;
+        }
+
+        &-btn {
+            border: 0;
+            margin-top: 16px;
+            width: 335px;
+            height: 56px;
+            background-color: $red;
+            border-radius: 10px;
+            @include mixin.font (normal, 600, 25px, 100%, $white);
+            letter-spacing: -0.019em;
+            text-align: center;
+            font-feature-settings: "liga" off;
+        }
+        
+    }
+
+    .second-ideas-title {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .ideas-tablet-third {
+        display: block;
+        width: 359px;
+        background-color: $black;
+        border-radius: 10px;
+        padding: 12px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        h4 {
+            width: 304px;
+            @include mixin.font (normal, 600, 25px, 100%, $white);
+            letter-spacing: -0.019em;
+            overflow-y: hidden;
+            margin-bottom: 49px;
+        }
+
+        &-btn {
+            width: 335px;
+            height: 56px;
+            background-color: $white;
+            border-radius: 10px;
+            border: 0;
+            @include mixin.font (normal, 600, 25px, 100%, $black);
+            text-align: center;
+            letter-spacing: -0.019em;
+        }
+    }
+
+    .ideas-tablet-fourth {
+        display: flex;
+        width: 359px;
+        @include mixin.flex (space-between, center, 0);
+
+        &-image {
+            img {
+                width: 271px;
+            }
+        }
+
+        &-text {
+            width: 80px;
+            height: 311px;
+            background-color: $black;
+            border-radius: 12px;
+            @include mixin.flex (center, center, 0);
+            position: relative;
+            h5 {
+                @include mixin.font (normal, 800, 18px, 110%, $white);
+                display: flex;
+                align-items: center;
+                text-align: center;
+                font-feature-settings: "liga" off;
+                transform: rotate(-90deg);
+                position: absolute;
+                overflow-y: hidden;
+            }
+        }
+    }
+
+    .mobile-footer {
+        @include mixin.flex (space-around, center, 0);
+        width: 100%;
+        background-color: $black;
+        padding: 10px;
+        overflow-y: hidden;
+        position: sticky;
+
+        &-logo {
+            @include mixin.flex (center, center, 6px);
+            flex-direction: column;
+            h4 {
+                @include mixin.font (normal, 500, 13px, 18px, $white);
+                text-align: center;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+            }
+        }
+
+        &-search {
+            @include mixin.flex (center, center, 6px);
+            flex-direction: column;
+            h4 {
+                @include mixin.font (normal, 500, 13px, 18px, $body-grey);
+                text-align: center;
+                letter-spacing: 0.03em;
+            }
+        }
+
+        &-trend {
+            @include mixin.flex (center, center, 6px);
+            flex-direction: column;
+            h4 {
+                @include mixin.font (normal, 500, 13px, 18px, $body-grey);
+                text-align: center;
+                letter-spacing: 0.03em;
+            }
+        }
+
+        &-settings {
+            @include mixin.flex (center, center, 6px);
+            flex-direction: column;
+            h4 {
+                @include mixin.font (normal, 500, 13px, 18px, $body-grey);
+                text-align: center;
+                letter-spacing: 0.03em;
+            }
+        }
+    }
 }

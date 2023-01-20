@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 56.8%;
+  width: 75.7%;
   margin: auto;
   background-color: #ffffff;
 }
@@ -1055,6 +1055,1508 @@
   display: none;
 }
 
-.main-title-mobile {
+.main-title-mobile-top {
   display: none;
+}
+
+.main-title-mobile-center {
+  display: none;
+}
+
+.main-title-mobile-bottom {
+  display: none;
+}
+
+.main-card-block-mobile {
+  display: none;
+}
+
+.test-title-mobile {
+  display: none;
+}
+
+.small-card-mobile {
+  display: none;
+}
+
+.results-mobile {
+  display: none;
+}
+
+.mobile-bt {
+  display: non;
+}
+
+.ideas-tablet-first-tablet-img {
+  display: none;
+}
+
+.ideas-tablet-first-mobile-img {
+  display: none;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-footer {
+    display: none;
+  }
+
+  .main-title-mobile-bottom {
+    display: none;
+  }
+
+  .ideas-tablet-first-mobile-img {
+    display: none;
+  }
+
+  .results-mobile {
+    display: none;
+  }
+
+  .mobile-bt {
+    display: none;
+  }
+
+  .small-card-mobile {
+    display: none;
+  }
+
+  .test-title-mobile {
+    display: none;
+  }
+
+  .main-title-mobile-center {
+    display: none;
+  }
+
+  .main-card-block-mobile {
+    display: none;
+  }
+
+  .main-title-mobile-top {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 96%;
+  }
+
+  .abs-block {
+    width: 100%;
+    padding: 45px 0;
+  }
+
+  .header-bottom-slider-left-btns-fifth {
+    display: none;
+  }
+
+  .header-bottom-slider-left-btns-sixth {
+    display: none;
+  }
+
+  .header-bottom-slider-left-btns-seventh {
+    display: none;
+  }
+
+  .header-bottom-slider-left-btns-eight {
+    display: none;
+  }
+
+  .header-bottom-slider-right {
+    display: none;
+  }
+
+  .header-top-search-bar-right {
+    display: none;
+  }
+
+  .header-bottom-slider-left-btns-fourth {
+    width: 150px;
+  }
+
+  .header-top {
+    padding: 12px;
+  }
+  .header-top-search-bar {
+    gap: 16px;
+  }
+
+  .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+
+  .header-top-search-bar-right-tablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    width: 196px;
+  }
+  .header-top-search-bar-right-tablet-theme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    padding: 4px 40px 4px 4px;
+    width: 84px;
+    height: 48px;
+    background-color: #000000;
+    border-radius: 32px;
+    background-image: url(../images/Sun.svg);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+  }
+  .header-top-search-bar-right-tablet-theme-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 100%;
+  }
+  .header-top-search-bar-right-tablet h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #ffffff;
+  }
+
+  .header-top-search-bar-left input {
+    width: 286px;
+  }
+
+  .main-title {
+    flex-direction: column-reverse;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .main-title-center {
+    box-shadow: none;
+    align-items: flex-start;
+  }
+  .main-title-right {
+    display: none;
+  }
+
+  .title-left-image {
+    width: 336px;
+    height: 228px;
+  }
+
+  .main-title-left {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0;
+    padding: 24px;
+  }
+  .main-title-left h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    overflow-y: hidden;
+  }
+  .main-title-left ul {
+    align-items: flex-start;
+  }
+  .main-title-left-bottom {
+    width: 336px;
+  }
+  .main-title-left-bottom ul {
+    gap: 32px;
+  }
+  .main-title-left-top {
+    margin-bottom: 0;
+    height: 285px;
+  }
+
+  .main-title-right-tablet {
+    display: flex;
+    width: 736px;
+    margin: auto;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+    flex-direction: column;
+  }
+  .main-title-right-tablet h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 110%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+    margin-bottom: 16px;
+  }
+  .main-title-right-tablet-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 12px;
+  }
+  .main-title-right-tablet-top-box a {
+    text-decoration: none;
+  }
+  .main-title-right-tablet-top-box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #777777;
+    text-transform: lowercase;
+    font-feature-settings: "liga" off;
+    margin-bottom: 12px;
+  }
+  .main-title-right-tablet-top-box p span {
+    color: #000000;
+  }
+  .main-title-right-tablet-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 12px;
+  }
+  .main-title-right-tablet-scroll {
+    width: 290px;
+    height: 4px;
+    background-color: #9c9cff;
+  }
+
+  .main-card-block {
+    display: none;
+  }
+
+  .main-card-block-tablet {
+    display: block;
+    width: 359px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .main-card-block-tablet-top {
+    background-color: #ea2e34;
+    border-radius: 6px;
+    width: 335px;
+    height: 240px;
+    margin: auto;
+  }
+  .main-card-block-tablet-bottom {
+    width: 335px;
+  }
+  .main-card-block-tablet-bottom h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+    overflow-y: hidden;
+  }
+  .main-card-block-tablet-bottom-data {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 177px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .main-card-block-tablet-bottom-data-day p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+  .main-card-block-tablet-bottom-data-time {
+    width: 79px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    background-image: url(../images/Clock-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 13% center;
+  }
+  .main-card-block-tablet-bottom-data-time p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+
+  .small-card-left {
+    display: none;
+  }
+
+  .small-card-right {
+    display: none;
+  }
+
+  .small-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .small-card-tablet {
+    display: block;
+    width: 359px;
+  }
+  .small-card-tablet-top {
+    width: 100%;
+    height: 281px;
+    background-color: #ffc7f3;
+    border-radius: 10px;
+  }
+  .small-card-tablet-bottom {
+    width: 100%;
+  }
+  .small-card-tablet-bottom-data {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 177px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .small-card-tablet-bottom-data-day p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+  }
+  .small-card-tablet-bottom-data-time {
+    width: 79px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    background-image: url(../images/dark-clock.svg);
+    background-repeat: no-repeat;
+    background-position: 13% center;
+  }
+  .small-card-tablet-bottom-data-time p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+  }
+  .small-card-tablet-bottom-title h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    overflow-y: hidden;
+  }
+
+  .abs-block {
+    display: none;
+  }
+
+  .inform-part-item {
+    display: none;
+  }
+
+  .inform-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .inform-part-item-tablet {
+    display: block;
+    width: 359px;
+  }
+  .inform-part-item-tablet-top {
+    width: 100%;
+    height: 280px;
+    background-color: #ffcb45;
+    border-radius: 10px;
+  }
+  .inform-part-item-tablet-bottom {
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 12px;
+    overflow-y: hidden;
+  }
+  .inform-part-item-tablet-bottom h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 110%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+    overflow-y: hidden;
+    margin-bottom: 8px;
+  }
+  .inform-part-item-tablet-bottom h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+  .inform-part-item-tablet-bottom-data {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 177px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .inform-part-item-tablet-bottom-data-day p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+  .inform-part-item-tablet-bottom-data-time {
+    width: 79px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    background-image: url(../images/Clock-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 13% center;
+  }
+  .inform-part-item-tablet-bottom-data-time p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+
+  .second-small {
+    display: none;
+  }
+
+  .test-title-abs {
+    width: 140px;
+    height: 140px;
+  }
+  .test-title-text {
+    width: 536px;
+    height: 140px;
+  }
+  .test-title-text p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .results {
+    display: none;
+  }
+
+  .mailing-top {
+    margin-bottom: 16px;
+  }
+  .mailing-top h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 110%;
+    color: #292929;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    width: 688px;
+  }
+
+  .mailing-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+  }
+  .mailing-bottom input {
+    width: 688px;
+  }
+  .mailing-bottom-btn {
+    width: 688px;
+  }
+
+  .ideas-top {
+    display: none;
+  }
+
+  .ideas-bottom {
+    display: none;
+  }
+
+  .ideas {
+    gap: 16px;
+  }
+
+  .ideas-tablet-first {
+    display: block;
+    width: 736px;
+    background-color: #ffffff;
+    border-radius: 20.5014px;
+    padding: 24px;
+    overflow-y: hidden;
+  }
+  .ideas-tablet-first-tablet-img {
+    display: block;
+    margin-bottom: 472.14px;
+  }
+  .ideas-tablet-first h5 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 110%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+    overflow-y: hidden;
+  }
+
+  .ideas-tablet-second {
+    display: block;
+    width: 736px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 8.20056px 8.20056px rgba(0, 0, 0, 0.25);
+    padding: 24px;
+  }
+  .ideas-tablet-second h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 110%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+    overflow-y: hidden;
+  }
+  .ideas-tablet-second-btn {
+    margin-top: 24px;
+    width: 688px;
+    height: 98px;
+    background-color: #ff4308;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 110%;
+    color: #ffffff;
+    text-align: center;
+    font-feature-settings: "liga" off;
+  }
+
+  .second-ideas-title {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .ideas-tablet-third {
+    display: block;
+    width: 736px;
+    background-color: #000000;
+    border-radius: 20.5014px;
+    padding: 24px;
+  }
+  .ideas-tablet-third h4 {
+    width: 686px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 110%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+    overflow-y: hidden;
+    margin-bottom: 45px;
+  }
+  .ideas-tablet-third-btn {
+    width: 688px;
+    height: 114px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 110%;
+    color: #000000;
+    text-align: center;
+    font-feature-settings: "liga" off;
+  }
+
+  .ideas-tablet-fourth {
+    display: flex;
+    width: 736px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .ideas-tablet-fourth-text {
+    width: 164px;
+    height: 637px;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    position: relative;
+  }
+  .ideas-tablet-fourth-text h5 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 110%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    transform: rotate(-90deg);
+    position: absolute;
+    overflow-y: hidden;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .tablet-footer {
+    display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 96%;
+  }
+
+  .abs-block-first {
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 9px;
+  }
+
+  .header-bottom {
+    display: none;
+  }
+
+  .header-top-search-bar {
+    display: none;
+  }
+
+  .header-top {
+    justify-content: center;
+  }
+
+  .header {
+    margin-bottom: 16px;
+  }
+
+  .main-title-right-tablet {
+    display: none;
+  }
+
+  .main-title-center {
+    display: none;
+  }
+
+  .main-title-left {
+    display: none;
+  }
+
+  .main-title-right {
+    display: none;
+  }
+
+  .main-title-mobile-top {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .main-title-mobile-top h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+    overflow-y: hidden;
+  }
+  .main-title-mobile-top h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+    overflow-y: hidden;
+    width: 335px;
+  }
+  .main-title-mobile-top-image {
+    width: 335px;
+    height: 220px;
+    background-color: #9c9cff;
+    border-radius: 6px;
+  }
+  .main-title-mobile-top-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    width: 177px;
+  }
+  .main-title-mobile-top-data-day p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #302c2c;
+    font-feature-settings: "liga" off;
+  }
+  .main-title-mobile-top-data-time {
+    width: 79px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    background-image: url(../images/dark-clock.svg);
+    background-repeat: no-repeat;
+    background-position: 13% center;
+  }
+  .main-title-mobile-top-data-time p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+  }
+
+  .main-title {
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .main-title-mobile-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+  }
+  .main-title-mobile-center-image {
+    width: 335px;
+    height: 182px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+  }
+  .main-title-mobile-center h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+  }
+  .main-title-mobile-center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .main-title-mobile-center-item-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    gap: 8px;
+  }
+  .main-title-mobile-center-item-box-img {
+    width: 72px;
+    height: 72px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+  }
+  .main-title-mobile-center-item-box-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+    width: 255px;
+  }
+  .main-title-mobile-center-item-box-text-name {
+    width: 98px;
+    height: 25px;
+    background-color: #93ff82;
+    border-radius: 6px;
+    padding: 4px;
+  }
+  .main-title-mobile-center-item-box-text-name h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+    letter-spacing: -0.019em;
+    text-align: center;
+  }
+
+  .main-title-mobile-bottom {
+    width: 359px;
+    display: flex;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+    flex-direction: column;
+  }
+  .main-title-mobile-bottom-mobile-bt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 8px;
+  }
+  .main-title-mobile-bottom h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 110%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+    margin-bottom: 12px;
+  }
+  .main-title-mobile-bottom-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 12px;
+  }
+  .main-title-mobile-bottom-top-box a {
+    text-decoration: none;
+  }
+  .main-title-mobile-bottom-top-box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #777777;
+    text-transform: lowercase;
+    font-feature-settings: "liga" off;
+    margin-bottom: 12px;
+  }
+  .main-title-mobile-bottom-top-box p span {
+    color: #000000;
+  }
+  .main-title-mobile-bottom-scroll {
+    width: 290px;
+    height: 4px;
+    background-color: #9c9cff;
+  }
+
+  .main-card-block-tablet {
+    display: none;
+  }
+
+  .main-card {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .main-card-block-mobile {
+    display: block;
+    width: 359px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .main-card-block-mobile-top {
+    background-color: #ea2e34;
+    border-radius: 6px;
+    width: 335px;
+    height: 240px;
+    margin: auto;
+  }
+  .main-card-block-mobile-bottom {
+    width: 335px;
+  }
+  .main-card-block-mobile-bottom h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+    overflow-y: hidden;
+  }
+  .main-card-block-mobile-bottom-data {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 177px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .main-card-block-mobile-bottom-data-day p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+  .main-card-block-mobile-bottom-data-time {
+    width: 79px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    background-image: url(../images/Clock-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 13% center;
+  }
+  .main-card-block-mobile-bottom-data-time p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+
+  .inform-part {
+    justify-content: center;
+  }
+
+  .test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  .test-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .test-title-abs {
+    width: 86px;
+    height: 86px;
+  }
+  .test-title-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    width: 24px;
+    height: 86px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .test-title-btn p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ffffff;
+    position: absolute;
+  }
+  .test-title-text {
+    display: none;
+  }
+
+  .test-title-mobile {
+    display: block;
+    width: 249px;
+    height: 86px;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 12px;
+  }
+  .test-title-mobile p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+  }
+
+  .inform-part {
+    margin-bottom: 16px;
+  }
+
+  .small-card-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex-direction: column;
+    width: 359px;
+    margin: auto;
+    margin-bottom: 8px;
+  }
+  .small-card-mobile-top {
+    width: 359px;
+    height: 281px;
+    background-color: #ffc7f3;
+    border-radius: 10px;
+  }
+  .small-card-mobile-bottom {
+    width: 100%;
+  }
+  .small-card-mobile-bottom-data {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 177px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .small-card-mobile-bottom-data-day p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+  }
+  .small-card-mobile-bottom-data-time {
+    width: 79px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    background-image: url(../images/dark-clock.svg);
+    background-repeat: no-repeat;
+    background-position: 13% center;
+  }
+  .small-card-mobile-bottom-data-time p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+  }
+  .small-card-mobile-bottom-title h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    overflow-y: hidden;
+  }
+
+  .results {
+    display: none;
+  }
+
+  .results-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    background-color: #000000;
+    height: 64px;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+  .results-mobile a {
+    text-decoration: none;
+  }
+  .results-mobile a h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -0.019em;
+    overflow-y: hidden;
+    text-transform: uppercase;
+  }
+
+  .mailing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 8px;
+  }
+  .mailing-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffc7f3;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 0;
+  }
+  .mailing-top h5 {
+    width: 335px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+    color: #302c2c;
+    text-align: center;
+    overflow-y: hidden;
+  }
+  .mailing-bottom {
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  .mailing-bottom input {
+    background-color: #272727;
+    border-radius: 10px;
+    width: 335px;
+    height: 48px;
+    border: 0;
+    padding-left: 32px;
+  }
+  .mailing-bottom-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    width: 335px;
+    height: 56px;
+    background-color: #ea2e34;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -0.019em;
+    border: 0;
+  }
+
+  .mailing-bottom input::placeholder {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #777777;
+    letter-spacing: -0.019em;
+  }
+
+  .tablet-footer {
+    display: none;
+  }
+
+  .mobile-bt {
+    display: block;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+  .mobile-bt img {
+    width: 359px;
+  }
+
+  .tablet-footer {
+    display: none;
+  }
+
+  .ideas-tablet-first-tablet-img {
+    display: none;
+  }
+
+  .ideas {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .ideas-tablet-first {
+    display: block;
+    width: 359px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 12px;
+    overflow-y: hidden;
+  }
+  .ideas-tablet-first-mobile-img {
+    display: block;
+    margin-bottom: 196px;
+  }
+  .ideas-tablet-first h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110%;
+    color: #000000;
+    font-feature-settings: "liga" off;
+    overflow-y: hidden;
+  }
+
+  .ideas-tablet-second {
+    display: block;
+    width: 359px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 12px;
+  }
+  .ideas-tablet-second h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 110%;
+    color: #ffffff;
+    font-feature-settings: "liga" off;
+    overflow-y: hidden;
+  }
+  .ideas-tablet-second-btn {
+    border: 0;
+    margin-top: 16px;
+    width: 335px;
+    height: 56px;
+    background-color: #ea2e34;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #ffffff;
+    letter-spacing: -0.019em;
+    text-align: center;
+    font-feature-settings: "liga" off;
+  }
+
+  .second-ideas-title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .ideas-tablet-third {
+    display: block;
+    width: 359px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .ideas-tablet-third h4 {
+    width: 304px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #ffffff;
+    letter-spacing: -0.019em;
+    overflow-y: hidden;
+    margin-bottom: 49px;
+  }
+  .ideas-tablet-third-btn {
+    width: 335px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+    letter-spacing: -0.019em;
+  }
+
+  .ideas-tablet-fourth {
+    display: flex;
+    width: 359px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .ideas-tablet-fourth-image img {
+    width: 271px;
+  }
+  .ideas-tablet-fourth-text {
+    width: 80px;
+    height: 311px;
+    background-color: #000000;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    position: relative;
+  }
+  .ideas-tablet-fourth-text h5 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 110%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    transform: rotate(-90deg);
+    position: absolute;
+    overflow-y: hidden;
+  }
+
+  .mobile-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+    overflow-y: hidden;
+    position: sticky;
+  }
+  .mobile-footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-direction: column;
+  }
+  .mobile-footer-logo h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .mobile-footer-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-direction: column;
+  }
+  .mobile-footer-search h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #777777;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .mobile-footer-trend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-direction: column;
+  }
+  .mobile-footer-trend h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #777777;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .mobile-footer-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-direction: column;
+  }
+  .mobile-footer-settings h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #777777;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
 }
